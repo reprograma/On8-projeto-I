@@ -6,13 +6,8 @@ Professora: Raquel Andrade
 
 <img src="https://i.ibb.co/5cTvbhC/readme-header.png" >
 
-# Planejamento
-1. 
-2.
-3. 
-
 ## Sobre o Projeto
-Escolha um personlidade Maravilhosa que te inspira para criar uma página de perfil dela.
+O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras, que tem como objetivo valorizar grandes mulheres que temos como inspiração.
 
 ### Requisitos obrigatórios:
 1. A página deve ser responsiva;
@@ -34,12 +29,11 @@ Seguir o layout presente no [link](https://www.figma.com/file/XBEywzd2yF47RaWm0G
 
 1. Entrar no repositório e fazer o fork do repositório do projeto M de Maravilhosa
 
-   Link: https://github.com/reprograma/On8-projeto-1-m-de-maravilhosa
+   Link [link](https://github.com/reprograma/On8-projeto-1-m-de-maravilhosa)
 
-2. Clicar no no botão  CODE  e copiar o link.
-
-   Link: https://github.com/nome-da-aluna/On8-projeto-1-m-de-maravilhosa.git
-
+2. Clicar no botão CODE e copiar o link.
+      
+  EXEMPLO: https://github.com/SEU-NOME/On8-projeto-1-m-de-maravilhosa.git
 
 3. Abra o GitBash no seu desktop
 
@@ -62,43 +56,46 @@ Seguir o layout presente no [link](https://www.figma.com/file/XBEywzd2yF47RaWm0G
      git clone  "colar aqui a url do seu repositório"
  ```
 
-   4.4 Digite o comando:
+    4.4 Digite o comando:
  ```
-     git checkout -b seu-nome
+     cd On8-projeto-I/
  ```
 
    4.5 Digite o comando:
  ```
+     git checkout -b seu-nome
+ ```
+
+   4.6 Digite o comando:
+ ```
      code .
  ```
        
-   4.6 No VSCODE criar a arquitetura das pastas no seguinte padrão:
+   4.7 No VSCODE criar a arquitetura das pastas no seguinte padrão:
   ```
      ATENÇÃO - Este padrão não deve ser alterado
  ```
  
-   4.7 Retorne ao Gitbash e digite os seguintes comandos:
+   4.8 Retorne ao Gitbash e digite os seguintes comandos:
   ```
      imagem
  ```
 
-   4.8 Digite o comando:
+   4.9 Digite o comando:
  ```
      git status
  ```
-   4.9 Digite o comando:
+   4.10 Digite o comando:
 ```
     git add .
 ```
 
-   4.10 Digite o comando:
+   4.11 Digite o comando:
 ```
      git commit -m "messagem do commit"
 ```
 
-   4.11 Digite o comando:
+   4.12 Digite o comando:
 ```
      git push origin nome-da-sua-branch
 ```
-
-
