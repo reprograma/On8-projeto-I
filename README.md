@@ -6,6 +6,11 @@ Professora: Raquel Andrade
 
 <img src="https://i.ibb.co/5cTvbhC/readme-header.png" >
 
+# Planejamento
+1. 
+2.
+3. 
+
 ## Sobre o Projeto
 O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras, que tem como objetivo valorizar grandes mulheres que temos como inspiração.
 
@@ -18,27 +23,24 @@ O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradora
 1. Realizar o desenvolvimento mobile first;
 2. Criar uma página coom o seu perfil;
 
+## Tema 
+Escolha um personlidade Maravilhosa que te inspira para criar uma página de perfil dela.
 
 ## Protótipo Figma
 Seguir o layout presente no [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
 
 ## Orientações
-### Estrutura
-
-## Orientações
 
 1. Entrar no repositório e fazer o fork do repositório do projeto M de Maravilhosa
 
-   Link [link](https://github.com/reprograma/On8-projeto-1-m-de-maravilhosa)
+   Link: [Repositório](https://github.com/reprograma/On8-projeto-1-m-de-maravilhosa)
 
 2. Clicar no botão CODE e copiar o link.
       
-  EXEMPLO: https://github.com/SEU-NOME/On8-projeto-1-m-de-maravilhosa.git
+  IMG
 
-3. Abra o GitBash no seu desktop
-
-   IMAGEM
-
+3. Abra o GitBash no seu desktop.
+   
 4. Siga os Comandos:
 
    4.1  Digite o comando:
@@ -77,9 +79,6 @@ Seguir o layout presente no [link](https://www.figma.com/file/XBEywzd2yF47RaWm0G
  ```
  
    4.8 Retorne ao Gitbash e digite os seguintes comandos:
-  ```
-     imagem
- ```
 
    4.9 Digite o comando:
  ```
