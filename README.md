@@ -18,7 +18,7 @@ Professora: Raquel Andrade
 
 **10/09 - Plantão de dúvidas.**
 
-**11/09 - Entrega e envios de PullRequest até às 22h00.**
+**11/09 - Entrega e envios de PullRequest até às 20h00.**
  
 
 ## Sobre o Projeto
