@@ -7,6 +7,9 @@ Professora: Raquel Andrade
 <img src="https://i.ibb.co/5cTvbhC/readme-header.png" >
 
 ## Planejamento
+
+## Datas | Entregas | Plantões de dúvidas
+
 **05/09 - Planejamento e ínicio do projeto.**
 
 **15/09 - Plantão de dúvidas.**
