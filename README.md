@@ -12,11 +12,9 @@ Professora: Raquel Andrade
 
 **05/09 - Planejamento e ínicio do projeto.**
 
-**15/09 - Plantão de dúvidas.**
+**08/09 - Plantão de dúvidas.**
 
-**09/09 - Orientações finais.**
-
-**15/09 - Plantão de dúvidas.**
+**09/09 - Plantão de dúvidas.**
 
 **10/09 - Plantão de dúvidas.**
 
