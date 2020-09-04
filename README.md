@@ -18,11 +18,11 @@ O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradora
 Escolher uma mulher Maravilhosa que te inspira.
 
 ## Protótipo figma
-Seguir o layout presente no [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
+Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
 
 ### Requisitos obrigatórios:
 
-1. Seguir o layout conforme protótipo do Figma;
+1. Seguir o layout conforme o protótipo do Figma;
 2. Inserir nome e a foto de sua maravilhosa;
 3. A página deve ser responsiva;
 4. Realizar o desenvolvimento mobile first;
