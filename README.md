@@ -7,9 +7,13 @@ Professora: Raquel Andrade
 <img src="https://i.ibb.co/5cTvbhC/readme-header.png" >
 
 ## Planejamento
-1. 
-2.
-3. 
+**05/09 - Planejamento e ínicio do projeto.
+**15/09 - Plantão de dúvidas.
+**09/09 - Orientações finais.
+**15/09 - Plantão de dúvidas.
+**10/09 - Plantão de dúvidas.
+**11/09 - Entrega e envios de PullRequest até às 22h00.
+ 
 
 ## Sobre o Projeto
 O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras.
