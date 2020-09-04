@@ -23,7 +23,7 @@ Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-
 ---
 
 ```
-### Requisitos obrigatórios:
+## Requisitos obrigatórios:
 
 1. Seguir o layout conforme o protótipo do Figma;
 2. Inserir nome e a foto de sua maravilhosa;
