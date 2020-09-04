@@ -6,16 +6,19 @@ Professora: Raquel Andrade
 
 <img src="https://i.ibb.co/5cTvbhC/readme-header.png" >
 
-# Planejamento
+## Planejamento
 1. 
 2.
 3. 
 
 ## Sobre o Projeto
-O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras, tendo como objetivo valorizar grandes mulheres nós inspira.
+O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras.
 
 ## Tema 
 Escolher uma mulher Maravilhosa que te inspira.
+
+## Protótipo figma
+Seguir o layout presente no [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
 
 ### Requisitos obrigatórios:
 
@@ -25,12 +28,10 @@ Escolher uma mulher Maravilhosa que te inspira.
 4. Realizar o desenvolvimento mobile first;
 5. Criar uma página com o seu perfil;
 
-## Protótipo Figma
-Seguir o layout presente no [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
+---
 
 ## Orientações
 
-## Iniciar o projeto
 
 1. Entrar no repositório e fazer o fork do repositório do projeto M de Maravilhosa
 
