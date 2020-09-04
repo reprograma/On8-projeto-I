@@ -12,24 +12,25 @@ Professora: Raquel Andrade
 3. 
 
 ## Sobre o Projeto
-O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras, que tem como objetivo valorizar grandes mulheres que temos como inspiração.
-
-### Requisitos obrigatórios:
-1. A página deve ser responsiva;
-2. Seguir o layout conforme protótipo Figma;
-3. Inserir na página principal o nome e a foto de sua maravilhosa;
-
-### Requisitos opcionais:
-1. Realizar o desenvolvimento mobile first;
-2. Criar uma página coom o seu perfil;
+O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras, tendo como objetivo valorizar grandes mulheres nós inspira.
 
 ## Tema 
-Escolha um personlidade Maravilhosa que te inspira para criar uma página de perfil dela.
+Escolher uma mulher Maravilhosa que te inspira.
+
+### Requisitos obrigatórios:
+
+1. Seguir o layout conforme protótipo do Figma;
+2. Inserir nome e a foto de sua maravilhosa;
+3. A página deve ser responsiva;
+4. Realizar o desenvolvimento mobile first;
+5. Criar uma página com o seu perfil;
 
 ## Protótipo Figma
 Seguir o layout presente no [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
 
 ## Orientações
+
+## Iniciar o projeto
 
 1. Entrar no repositório e fazer o fork do repositório do projeto M de Maravilhosa
 
