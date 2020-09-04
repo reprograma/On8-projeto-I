@@ -20,6 +20,9 @@ Escolher uma mulher Maravilhosa que te inspira.
 ## Protótipo figma
 Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
 
+---
+
+```
 ### Requisitos obrigatórios:
 
 1. Seguir o layout conforme o protótipo do Figma;
@@ -27,7 +30,7 @@ Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-
 3. A página deve ser responsiva;
 4. Realizar o desenvolvimento mobile first;
 5. Criar uma página com o seu perfil;
-
+```
 ---
 
 ## Orientações
