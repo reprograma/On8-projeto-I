@@ -8,7 +8,7 @@ Professora: Raquel Andrade
 
 
 # CRONOGRAMA
-```
+
 **05/09 - Planejamento e ínicio do projeto.**
 
 **08/09 - Plantão de dúvidas.**
@@ -18,7 +18,7 @@ Professora: Raquel Andrade
 **10/09 - Plantão de dúvidas.**
 
 **11/09 - Entrega e envios de PullRequest até às 23h59.**
-```
+
 
 ## Sobre o Projeto
 O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras.
