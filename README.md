@@ -9,7 +9,7 @@ Professora: Raquel Andrade
 
 # CRONOGRAMA
 
-**05/09 - Planejamento e ínicio do projeto.**
+**05/09 - Planejamento e início do projeto.**
 
 **09/09 - Plantão de dúvidas.**
 
