@@ -30,7 +30,7 @@ Escolher uma mulher Maravilhosa que te inspira.
 Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
 
 
-```
+
 ## Requisitos obrigatórios:
 
 1. Seguir o layout conforme o protótipo do Figma;
@@ -38,7 +38,6 @@ Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-
 3. A página deve ser responsiva;
 4. Realizar o desenvolvimento mobile first;
 5. Criar uma página com o seu perfil;
-```
 ---
 
 ## Orientações
@@ -50,7 +49,7 @@ Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-
 
 2. Clicar no botão CODE e copiar o link.
 
-<img src="https://i.ibb.co/1J2MF22/git-fork.png" width="800" height="450" >
+<img src="https://i.ibb.co/1J2MF22/git-fork.png" width="400" height="250" >
       
 3. Abra o GitBash no seu desktop.
    
