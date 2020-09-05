@@ -36,49 +36,49 @@ Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-
 ## Orientações
 
 
-1. Entrar no repositório e fazer o fork do repositório do projeto M de Maravilhosa
+**1.** Entrar no repositório e fazer o fork do repositório do projeto M de Maravilhosa
 
    Link: [Repositório](https://github.com/reprograma/On8-projeto-1-m-de-maravilhosa)
 
-2. Clicar no botão CODE e copiar o link.
+**2.** Clicar no botão CODE e copiar o link.
 
 <img src="https://i.ibb.co/1J2MF22/git-fork.png" width="400" height="250" >
       
-3. Abra o GitBash no seu desktop.
+**3.** Abra o GitBash no seu desktop.
    
-4. Siga os Comandos:
+**4.** Siga os Comandos:
 
-   4.1  Digite o comando:
+   **4.1**  Digite o comando:
  ``` 
         pwd
  ```
 
-   4.2  Digite o comando:
+   **4.2**  Digite o comando:
  ```
         cd desktop
  ```
 
-   4.3 Digite o comando:
+   **4.3** Digite o comando:
  ```
        git clone  "colar aqui a url do seu repositório"
  ```
 
-   4.4 Digite o comando:
+   **4.4** Digite o comando:
  ```
        cd On8-projeto-I/
  ```
 
-   4.5 Digite o comando:
+   **4.5** Digite o comando:
  ```
        git checkout -b seu-nome
  ```
 
-   4.6 Digite o comando:
+   **4.6** Digite o comando:
  ```
        code .
  ```
        
-   4.7 No VSCODE criar a arquitetura das pastas no seguinte padrão:
+   **4.7** No VSCODE criar a arquitetura das pastas no seguinte padrão:
    
   <img src="https://i.ibb.co/Vw0y0mp/estruturas-pasta.png">
 
@@ -86,21 +86,21 @@ Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-
    ```
    Digitar os seguintes comandos para realizar o PullRequest:
    ```
-   4.9 Digite o comando:
+   **4.9** Digite o comando:
  ```
      git status
  ```
-   4.10 Digite o comando:
+   **4.10** Digite o comando:
 ```
     git add .
 ```
 
-   4.11 Digite o comando:
+   **4.11** Digite o comando:
 ```
      git commit -m "messagem do commit"
 ```
 
-   4.12 Digite o comando:
+   **4.12** Digite o comando:
 ```
      git push origin nome-da-sua-branch
 ```
