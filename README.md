@@ -49,9 +49,9 @@ Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-
    Link: [Repositório](https://github.com/reprograma/On8-projeto-1-m-de-maravilhosa)
 
 2. Clicar no botão CODE e copiar o link.
-      
-  IMG
 
+<img src="https://i.ibb.co/1J2MF22/git-fork.png" width="800" height="450" >
+      
 3. Abra o GitBash no seu desktop.
    
 4. Siga os Comandos:
@@ -63,36 +63,37 @@ Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-
 
    4.2  Digite o comando:
  ```
-      cd desktop
+        cd desktop
  ```
 
    4.3 Digite o comando:
  ```
-     git clone  "colar aqui a url do seu repositório"
+       git clone  "colar aqui a url do seu repositório"
  ```
 
-    4.4 Digite o comando:
+   4.4 Digite o comando:
  ```
-     cd On8-projeto-I/
+       cd On8-projeto-I/
  ```
 
    4.5 Digite o comando:
  ```
-     git checkout -b seu-nome
+       git checkout -b seu-nome
  ```
 
    4.6 Digite o comando:
  ```
-     code .
+       code .
  ```
        
    4.7 No VSCODE criar a arquitetura das pastas no seguinte padrão:
-  ```
-     ATENÇÃO - Este padrão não deve ser alterado
- ```
- 
-   4.8 Retorne ao Gitbash e digite os seguintes comandos:
+   
+  <img src="https://i.ibb.co/Vw0y0mp/estruturas-pasta.png">
 
+
+   ```
+   Digitar os seguintes comandos para realizar o PullRequest:
+   ```
    4.9 Digite o comando:
  ```
      git status
