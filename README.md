@@ -6,10 +6,9 @@ Professora: Raquel Andrade
 
 <img src="https://i.ibb.co/5cTvbhC/readme-header.png" >
 
-## Planejamento
 
-## Datas | Entregas | Plantões de dúvidas
-
+# CRONOGRAMA
+```
 **05/09 - Planejamento e ínicio do projeto.**
 
 **08/09 - Plantão de dúvidas.**
@@ -18,8 +17,8 @@ Professora: Raquel Andrade
 
 **10/09 - Plantão de dúvidas.**
 
-**11/09 - Entrega e envios de PullRequest até às 20h00.**
- 
+**11/09 - Entrega e envios de PullRequest até às 23h59.**
+```
 
 ## Sobre o Projeto
 O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras.
@@ -30,7 +29,6 @@ Escolher uma mulher Maravilhosa que te inspira.
 ## Protótipo figma
 Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
 
----
 
 ```
 ## Requisitos obrigatórios:
