@@ -11,25 +11,18 @@ Professora: Raquel Andrade
 
 **05/09 - Planejamento e ínicio do projeto.**
 
-**08/09 - Plantão de dúvidas.**
-
 **09/09 - Plantão de dúvidas.**
 
-**10/09 - Plantão de dúvidas.**
-
-**11/09 - Entrega e envios de PullRequest até às 23h59.**
-
+**11/09 - Enciar os PullRequest até às 23h59.**
 
 ## Sobre o Projeto
 O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras.
 
-## Tema 
+## Personalidade 
 Escolher uma mulher Maravilhosa que te inspira.
 
 ## Protótipo figma
 Seguir o layout [link](https://www.figma.com/file/XBEywzd2yF47RaWm0Gw4t7Tz/M-de-Maravilhosa?node-id=0%3A1)
-
-
 
 ## Requisitos obrigatórios:
 
