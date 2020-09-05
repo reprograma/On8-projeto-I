@@ -13,7 +13,7 @@ Professora: Raquel Andrade
 
 **09/09 - Plantão de dúvidas.**
 
-**11/09 - Enciar os PullRequest até às 23h59.**
+**11/09 - Entrega do projeto e enviar PullRequest até às 23h59.**
 
 ## Sobre o Projeto
 O projeto "M de Maravilhosa" é um site com referências de mulheres inspiradoras.
