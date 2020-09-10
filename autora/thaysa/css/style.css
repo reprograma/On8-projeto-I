@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    background-color: #674582;
+    height: 4.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    padding-right: 1rem;
+}
+
+.icon {
+    width: 2rem;
+}
+
+.link {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.link:hover {
+    color:#b993d6;
+}
+
+.banner {
+    background: url('../../../autora/thaysa/img/thaysa.png') no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 34%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.title {
+    color: #674582;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 2rem;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.about-description {
+    width: 50%;
+    line-height: 150%;
+    color: #63458A;
+    font-size: 1.3rem;
+}
+
+.profile {
+    width: 15rem;
+    margin-right: 3%;
+}
+
+.line {
+    margin: 6% auto;
+    border-top: 2px solid #63458A;
+    width: 30%;
+}
+
+.project {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.project-img {
+    width: 100%;
+    margin: 3% 0;
+}
+
+.project-description {
+    line-height: 150%;
+    color: #63458A;
+    font-size: 1.3rem;
+    margin-top: 3%;
+}
+
+.authors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+}
+
+.authors div:nth-child(2) {
+    padding: 0 10%;
+}
+
+.author-name {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.author-img {
+    width: 100%;
+}
+
+.button {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #C083B9;
+}
+
+.home {
+    text-align: center;
+    margin-top: 6%;
+}
+
+.footer-nav {
+    background-color: #323534;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+    padding: 2% 0;
+    font-weight: 300;
+}
+
+.footer-links {
+    list-style: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+}
+
+.footer-links a:hover {
+    color:#b993d6;
+}
+
+.footer-links li {
+    margin-left: 1rem;
+}
+
+.footer-credits {
+    text-align: center;
+    background-color: #292A2A;
+    color: #fff;
+    padding: 1% 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width:1000px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .logo-header {
+        width: 14rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 1.3rem;
+        margin-top: 10%;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-description {
+        margin-top: 6%;
+        width: 70%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .authors {
+        flex-direction: column;
+    }
+
+    .author-img {
+        margin-top: 20%;
+        width: 10rem;
+    }
+
+    .author-name {
+        margin-top: -4%;
+    }
+
+    .footer-links {
+        font-size: 0.8rem;
+    }
+
+    .footer-logo {
+        width: 10rem;
+    }
+
+    .footer-credits {
+        font-size: 0.7rem;
+    }
+
+    .button {
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
+        margin: 4% 0;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .hide-desktop {
+        display: none;
+    }
+}
