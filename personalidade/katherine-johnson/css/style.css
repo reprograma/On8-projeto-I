@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px; /* definir uma font-size padrão */
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    color: #674582;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 2rem;
+    color: #63458A;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 68.571rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.6rem 1.7rem;
+}
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navegacao__links {
+    display: flex;
+}
+
+.navegacao__links a {
+    transition: all .2s;
+}
+
+.navegacao__links a:hover {
+    color: #C083B9;
+}
+
+.navegacao__menu {
+    display: none;
+}
+
+.navegacao__social {
+    display: none;
+}
+
+.banner {
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+                url(../img/banner_katherine_johnson.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    min-height: 30vh;
+    margin-top: 5rem;
+}
+
+.banner__titulo {
+    font-size: 2.5rem;
+    width: 100%
+}
+
+.chamada__intro {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+
+.chamada__titulo {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.chamada__foto {
+    width: 12rem;
+    height: 12rem;
+    background-image: url("../img/johnsonk.jpg");
+    background-size: cover;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+.chamada__resumo {
+    max-width: 28.722rem;
+}
+
+.chamada blockquote {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+    color: #63458A;
+    border: 1px solid #63458A;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2.5rem;
+    margin: 3rem 0;
+}
+
+.img-responsiva {
+    width: 100%;
+}
+
+.autora {
+    background-color: #e4b7e5;
+    min-height: 16em;
+}
+
+.autora__info, .autora__info p {
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.autora__info {
+    margin: 5rem 0;
+    padding: 2rem;
+}
+
+.autora__info a {
+    text-decoration: underline;
+    transition: all .5s;
+}
+
+.autora__info a {
+    text-decoration: underline;
+    transition: all .5s;
+}
+
+.autora__info a:hover {
+    color: black;
+}
+
+.botao {
+    padding: 10px 40px;
+    background-color: #C083B9;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #f489bc;
+    -webkit-transform: translate(0,-2px);
+    transform: translate(0,-2px);
+}
+
+.cta .botao {
+    border-radius: 5px;
+    margin: 0 auto 5rem;
+}
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+}
+  
+.rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+  
+.rodape__principal > * {
+    margin: 1rem 0;
+}
+  
+.rodape__navegacao > li {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+  
+.rodape__navegacao a {
+    transition: all .5s;
+}
+  
+.rodape__navegacao a:hover {
+    color: #C083B9;
+}
+  
+.rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+  
+.rodape__redes-sociais a:hover {
+    color: #C083B9;
+}
+  
+.rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+}
+  
+.rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+}
+  
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: .72rem;
+    opacity: 0.5;
+    text-align: center;
+    padding: .72rem;
+}
+
+/*** MEDIA QUERIES ***/
+/* TABLET */
+@media (min-width: 768px) {
+    .container {
+        padding: 0.6rem 1.6rem;
+    }
+
+    .banner {
+        min-height: 40vh;
+    }
+
+    .banner__titulo {
+        font-size: 3rem;
+    }
+    
+    .chamada {
+        display: block;
+    }
+
+    .chamada__intro {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .chamada__foto {
+        margin: 0;
+    }
+
+    .chamada__resumo {
+        max-width: 37rem;
+        margin: 0;
+    }
+
+    .chamada blockquote {
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 3rem 4rem;
+        margin: 4rem 0;
+    }
+
+    .autora__info {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .autora__info p {
+        text-align: left;
+    }
+
+    .cta .botao {
+        margin: 5rem auto;
+    }
+
+    .rodape__logo {
+        max-width: 200px;
+    }
+
+    .rodape__cc {
+      font-size: 1rem;
+      padding: .7rem;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    .navegacao__menu-hamburguer {
+        display: none;
+    }
+
+    .navegacao__menu {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .menu__item {
+        padding:  1rem;
+    }
+
+    .navegacao__social {
+        display: flex;
+    }
+
+    .social__item {
+        padding: 0 .5rem;
+    }
+
+    .banner {
+        min-height: 65vh;
+    }
+
+    .banner__titulo {
+        font-size: 4rem;
+    }
+    
+    .chamada__intro {
+        width: 51rem;
+        margin: 0 auto;
+    }
+    
+    .rodape {
+        padding-top: 0;
+    }
+
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 0;
+    }
+  
+    .rodape__navegacao,
+    .rodape__navegacao > li {
+        margin: .7rem 0;
+    }
+
+    .rodape__logo img {
+        max-width: 250px;
+    }
+
+    .rodape__navegacao > li, 
+    .rodape__redes-sociais span  {
+        font-size: 1.1rem;
+    }
+}
