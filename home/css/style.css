@@ -208,10 +208,13 @@ li {
 .maravilhosas__perfil img {
   background-color: #63458a;
   border-radius: 10px;
+  
 }
 
 .maravilhosas__perfil a img {
   transition: all .5s;
+  width: 160px;
+  height: 160px;
 }
 
 
