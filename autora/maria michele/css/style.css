@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+html{
+    font-size: 10px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.navegaçao{
+    display: flex;
+    background: #674582;
+    color: white;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 1920px;
+    height: 133px;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+.div_contener{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    max-width: 960px;
+}
+.a_logo_nav{
+    max-width: 200px;
+}
+.img_logo{    
+    width: 100%;
+}
+.nav_link{
+    display: flex;
+    right: -70.0rem;
+    top: 8.5rem;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 1s;
+    justify-content: flex-end;
+}
+.a_home{
+    justify-content: center;
+    width: 69px;
+    height: 19px;
+    left: 89.1rem;
+    top: 5.7rem;
+    margin-right: 1rem;
+}
+.nav_paragrafo_home{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #ffffff;
+}
+.a_nav_reprograma{
+    
+    width: 273px;
+    height: 22px;
+    left: 98.4rem;
+    top: 5.5rem;
+    margin-right: 4.0rem;
+}
+.nav_paragrafo_reprograma{
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 2.2rem;
+   color: #ffffff;
+}
+
+.div_midia_social{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;    
+}
+.ul_midia_social{
+    display: flex;
+    
+    }
+.a_facebook{
+    width: 100%;
+   max-width: 44.26px;
+    height: 44px;
+    left: 131.5rem;
+    top: 4.4rem;
+    margin: 0.5rem;
+}
+.a_instagram{
+   
+    width: 100%;
+    max-width: 44.26px;
+    height: 44px;
+    left: 138.218rem;
+    top: 4.4rem;
+    margin: 0.5rem;
+}
+.a_linkedin{
+    
+    width: 44.26px;
+    height: 44px;
+    left: 144.856rem;
+    top: 4.4rem;
+    margin: 0.5rem;
+}
+.a_twitter{
+    
+    width: 44.26px;
+    height: 44px;
+    left: 151.574rem;
+    top: 4.4rem;
+    margin: 0.5rem;
+}
+.itens_lista_img_midia{
+    
+}
+.img_midia_social{
+    
+}
+
+.sessao_banner{
+    width: 100%;    
+     background: url(/home/img/bg-banner-claro.png);
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+     left: 0rem;
+     top: 13.3rem;
+}
+.div_banner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 8vh;
+    
+}
+.paragrao_banner{
+}
+.titulo_banner{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 80.0rem;
+    font-size: 7.2rem;
+     color: white;
+}
+.titulo_autora{
+    font-family: "Roboto Slab";
+    font-style: normal;
+    width: 100%;
+    justify-content: center;
+    margin: 2.0rem;
+    text-align: center;
+    font-size: 3.6rem;
+    color: #63458A;
+    padding: 11.0rem;
+}
+.principal{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.perfil_autora{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    padding: 11.0rem;
+    
+}
+.div_texto_perfil{
+    display: block;
+    padding: 1.0rem;
+
+}
+.img_autora{
+    width: 250px;
+    height: 250px;
+    margin: 1.0rem;
+    padding: 1rem;
+}
+.paragrafo_autora{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    color: #63458A;
+}
+.paragrafo_autora_artigo{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    color: #63458A;
+    padding: 1rem;
+}
+.lista_autora{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    font-size: 3rem;
+    color: #63458A;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+.div_borda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    text-align: center;
+    border: 0.2rm solid #63458A;
+    width: 30vw;
+    margin-top: 8rem;
+}
+.div_paragrafo_maravilhosa{
+    width: 100%;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+.paragrafo_maravilhosa{
+    color: #63458A;
+    font-size: 1.8rem;
+}
+.img_mulheres{
+    
+    height: 70vh;
+   width: 100%;    
+    padding-left: 11rem;
+    padding-right: 11rem;
+    padding-bottom: 3rem;
+}
+.paragrafo_maravilhosa{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    color: #63458A;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+.nome_foto{
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.4rem;
+    color: #6D6D6D;
+    padding-top: 3rem;
+}
+.outras_aravilhosas{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+.img_outras_aravilhosas{
+    display: block;
+    width: 160px;
+    height: 160px;    
+    border:0.1rem solid #63458A;
+    margin-left: 5rem;
+   
+}
+.sub-titulo{
+    text-align: center;
+    color: #63458A;
+    font-family: "Montserrat";
+    font-style: normal;
+}
+.div_botao{
+    padding: 11rem;
+}
+.botao{
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #63458A;
+    border-radius: 0.5rem;  
+    width: 250px;
+    height: 50px;
+}
+
+.sessao_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background: #323534;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+.home_footer{
+    display: block;
+    text-align: center;
+    width: 293px;
+    height: 67px;
+    margin-right: -5.0rem;
+}
+.a_home_footer{
+    margin-bottom: 3.0rem;
+}
+.a_reprograma_footer{
+    margin-top: 3.0rem;
+}
+
+.div_logo_footer{
+    width: 402px;
+    height: 112px;
+}
+.img_logo_footer{
+    
+}
+.paragrafo_logo_footer{
+
+}
+.div_facebook_footer{
+    width: 277px;
+    height: 45px;
+}
+.paragrafo_facebook_footer{
+
+}
+.footer{
+    width: 100%;
+    height: 5vh;
+    background: black;
+}
+.div_footer{    
+    width: 100%;
+    height: 5vh;
+}
+.paragrafo_footer{
+    
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #ffffff;
+}

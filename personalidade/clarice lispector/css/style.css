@@ -1,0 +1,462 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+html{
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    font-weight: bold;
+} 
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.navegaçao{
+    display: flex;
+    background: #674582;
+    color: white;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 1920px;
+    height: 133px;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+.div_contener{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    max-width: 960px;
+}
+.a_logo_nav{
+    max-width: 200px;
+}
+.img_logo{    
+    width: 100%;
+}
+.nav_link{
+    display: flex;
+    right: -70.0rem;
+    top: 8.5rem;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 1s;
+    justify-content: flex-end;
+}
+.nav_lista{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10rem;
+}
+#menu_desktop{
+    display: flex;
+}
+#menu_ceular{
+    display: none;
+} 
+.menu_responsivo{
+    position: relative;
+    cursor: pointer;
+}
+
+.lista_menu_responsivo{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: gray;
+    background-color: #f2f2f2f2;
+}
+.menu_responsivo:hover .lista_menu_responsivo{
+    display: block;
+}
+
+.a_home{
+    justify-content: center;
+    width: 69px;
+    height: 19px;
+    left: 89.1rem;
+    top: 5.7rem;
+    margin-right: 1rem;
+}
+.nav_paragrafo_home{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #ffffff;
+}
+.a_nav_reprograma{
+    width: 273px;
+    height: 22px;
+    left: 984px;
+    top: 55px;
+    margin-right: 40px;
+}
+.nav_paragrafo_reprograma{
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 2.2rem;
+   color: #ffffff;
+}
+
+.div_midia_social{    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.ul_midia_social{
+    display: flex;
+    
+    }
+.a_facebook{
+    width: 100%;
+   max-width: 44.26px;
+    height: 44px;
+    left: 131.5rem;
+    top: 4.4rem;
+    margin: 0.5rem;
+}
+.a_instagram{
+    width: 100%;
+    max-width: 44.26px;
+    height: 44px;
+    left: 138.218rem;
+    top: 4.4rem;
+    margin: 0.5rem;
+}
+.a_linkedin{
+    width: 44.26px;
+    height: 44px;
+    left: 144.856rem;
+    top: 4.4rem;
+    margin: 0.5rem;
+}
+.a_twitter{
+    width: 44.26px;
+    height: 44px;
+    left: 151.574rem;
+    top: 4.4rem;
+    margin: 0.5rem;
+}
+.sessao_banner{
+    width: 100%;
+     background: url(/personalidade/nome/img/foto\ banne_Clarice-Lispector.jpg);
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 75vh;
+     left: 0rem;
+     top: 13.3rem;
+     padding-bottom: 3rem;
+
+}
+.div_banner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 8vh;
+}
+.paragrao_banner{
+
+}
+.titulo_banner{
+    display: flex;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 80.0rem;
+    font-size: 7.2rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.principal{
+    margin-top:5.0rem;
+}
+
+.sessao_titulo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    
+}
+
+.titulo_maravilhosa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    text-align: center;
+    color: #63458A;
+    padding-bottom: 5rem;
+}
+.box_perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /*margin: 4.0rem 5.0rem 4.0rem 8.0rem ;*/
+}
+.div_perfil{
+    
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 4.0rem;
+}
+.img_foto_perfil{
+   width: 210px;
+   height: 216px;
+}
+
+.div_paragrafo_perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 187px;
+   /* margin: 4.0rem 5.0rem 4.0rem 8.0rem;*/
+}
+
+.paragrafo_perfil{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.0rem;
+    line-height: 4.0rem;
+    color: #63458A;
+}
+.div_frase{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60%;
+   height: 25vh;
+   margin: 10.0rem 6.0rem 4.0rem 23.0rem;
+   padding-left: 11rem;
+   padding-top: 2rem;
+    padding-right: 11rem;
+   border: 1px solid #63458A;
+   box-sizing: border-box;    
+}
+
+.paragrafo_frase{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.9rem;
+    text-align: center;
+    color: #63458A;
+    margin: 1.5rem;
+}
+.sessao_historia{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-top: 4rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+.div_historia_titulo{
+    width: 227px;
+    height: 50px;
+    margin-bottom: 4.0rem;    
+}
+.titulo_hitoria{
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    line-height: 4.7rem;
+    color: #63458A;
+
+}
+.div_paragrafo_historia_1{
+     width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: center;  
+    padding-bottom: 4rem;
+}
+
+.paragrafo_historia_1{
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.0rem;
+   /* line-height: 4.0rem;*/
+    color: #63458A;
+    margin-bottom: 2.0rem;
+}
+.div_paragrafo_historia_2{
+    width: 100%;
+    /*height: 40vh;
+    left: 38.5rem;*/
+    padding-bottom: 4rem;
+}
+.img_historia{
+    width: 1171px;
+    height: 393px;
+    left: 38.5rem;
+    top: 197.3rem;
+}
+.paragrafo_historia_2{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    width: 100%;
+    /*line-height: 4.0rem;*/
+    color: #63458A;
+    margin-top: 6.0rem;
+}
+.sessao_autora{
+    background: #E4B7E5;
+    width: 100%;
+    height: 35vh;
+}
+.div_autora{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.img_autora{
+    width: 15vw;
+    height: 35vh;
+    margin-right: -7.0rem;
+}
+.ul_autora{
+    margin-top: 8.0rem;
+    margin-left: -55.0rem;
+    display: block;
+    justify-content: flex-start;
+}
+
+.li_autora{
+    font-size: 1.8rem;
+    color: #674582;
+}
+.a_botao{
+   display: flex;
+   justify-content: center;
+   margin-top: 4.0rem;
+   width: 100%;
+   height: 82px;
+   left: 73.0rem;
+   top: 307.9rem;
+}
+.btn{
+    background: #E4B7E5;
+    font-size: 1.7rem;
+    color: white;
+    border-radius: 1rem;
+    border-color: #fff;
+    width: 210px;
+    height: 40px;
+
+}
+.sessao_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background: #323534;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+.home_footer{
+    display: block;
+    text-align: center;
+    width: 293px;
+    height: 67px;
+    margin-right: -5.0rem;
+}
+.a_home_footer{
+    margin-bottom: 3.0rem;
+}
+.a_reprograma_footer{
+    margin-top: 3.0rem;
+}
+
+.div_logo_footer{
+    width: 402px;
+    height: 112px;
+}
+.img_logo_footer{
+    
+}
+.paragrafo_logo_footer{
+
+}
+.div_facebook_footer{
+    width: 277px;
+    height: 45px;
+}
+.paragrafo_facebook_footer{
+
+}
+.footer{
+    width: 100%;
+    height: 5vh;
+    background: black;
+}
+.div_footer{
+    
+    width: 100%;
+    height: 5vh;
+}
+.paragrafo_footer{
+    
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #ffffff;
+}
+@media screen and (max-width:650px){
+    html{
+        font-size: 8px;
+    }
+    @media screen and (max-width:450px){
+        #menu_celular{
+            display: block;
+        }
+        #menu_desktop{
+           *display: none;
+        }
+    }
