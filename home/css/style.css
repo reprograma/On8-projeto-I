@@ -212,6 +212,8 @@ li {
 
 .maravilhosas__perfil a img {
   transition: all .5s;
+  width: 160px;
+  height: 160px;
 }
 
 
@@ -377,7 +379,7 @@ li {
     }
 
     .rodape__navegacao > li {
-        font-size: 1.5rem;;
+        font-size: 1.5rem;
     }
     /** PERSONALIDADE **/
     /* --- OUTRA HEADER --- */
