@@ -89,12 +89,6 @@ ul li {
     color: #63458A;
 }
 
-.outras--mara {
-    color: #63458A;
-    text-align: center;
-    margin: 3rem;
-}
-
 .quote {
     border: #63458A solid 0.1px;
     margin: 2rem;
@@ -113,7 +107,6 @@ ul li {
 }
 
 .titulo--historia {
-    text-align: center;
     color: #63458A;
     font-size: 0.9rem;
 }
