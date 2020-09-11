@@ -1,0 +1,619 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 10px;
+}
+
+html body {
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: rgb(255, 255, 255);
+
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #63458A;
+}
+
+/* Estilo do menu */
+.navegacao {
+    height: 10%;
+
+    background-color: #674582;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacao_container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 60.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo_mara_menu {
+    width: 26rem;
+    height: 7rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.items_redes_sociais {
+    height: 4.4rem;
+    width: 4.4rem;
+}
+
+.menu_items {
+    width: 20.5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+
+    width: 35rem;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Estilo banner */
+
+.banner {
+    height: 30rem;
+
+    background: url(../img/banner-dany-emilia.jpg) no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 7.2rem;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilo da main */
+
+.titulo {
+    font-size: 3.6rem;
+    color: #63458A;
+}
+
+.perfil {
+    margin: 4rem auto;
+}
+
+.emilia {
+    text-align: center;
+    margin: 4rem auto 0 auto;
+    width: 60vw;
+}
+
+.perfil_container {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+}
+
+.paragrafo {
+    font-size: 2.5rem;
+    color: #63458A;
+    line-height: 4rem;
+    text-align: justify;
+    text-indent: 10rem;
+}
+
+.paragrafo_perfil {
+    width: 90%;
+    margin-left: 4rem;
+}
+
+#foto_perfil {
+    height: 30rem;
+    margin-top: 0.8rem;
+}
+
+.perfil_container_2 {
+    width: 70vw;
+    margin: 3rem auto;
+}
+
+.paragrafo_perfil_2 {
+    margin: 3rem 0;
+}
+
+.citacao {
+    width: 70vw;
+    height: 30.8%;
+    border: 1px solid #63458A;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.paragrafo_citacao {
+    font-size: 3.6rem;
+    width: 90%;
+    height: 19.6rem;
+    font-weight: bold;
+    margin: 5rem auto 0 auto;
+    color: #63458A;
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+.historia {
+    width: 70vw;
+    margin: auto;
+}
+
+.paragrafo_historia {
+    margin: 3rem 0;
+}
+
+.foto_historia {
+    width: 100%;
+    border: 1px solid #63458A;
+}
+
+/* Estilo área autora */
+
+.autora {
+    margin: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perfil_autora {
+    width: 100%;
+    background: #E4B7E5;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.foto_autora {
+    width: 15rem;
+}
+
+ul {
+    list-style: none;
+    color: #63458A;
+    font-weight: bold;
+    margin: auto 0 auto 4rem;
+}
+
+li {
+    font-size: 2rem;
+}
+
+button {
+    width: 20rem;
+    align-self: center;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #C083B9;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#texto_button {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+
+/* Estilo do footer */
+
+footer {
+    width: 100%;
+    height: 10%;
+    background: #323534;
+}
+
+.footer_container {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 1.7rem;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.link_fb {
+    align-self: center;
+}
+
+#link_fb_mara {
+    margin: 0;
+}
+
+#logo_fb_footer {
+    height: 5rem;
+    align-self: center;
+    padding-right: 1rem;
+}
+
+.f_maravilhosa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creditos {
+    width: 100%;
+    height: 3rem;
+    background: #292A2A;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0.7rem;
+}
+
+/* Medias queries */
+
+@media (max-width: 1320px) {
+    .logo_mara_menu {
+        width: 20rem;
+        height: 5rem;
+    }
+
+    .items_redes_sociais {
+        height: 3.4rem;
+        width: 3.4rem;
+    }
+
+    .menu_items {
+        width: 17.5rem;
+    }
+
+    .menu {
+        font-size: 1rem;
+
+        width: 30rem;
+        margin-top: auto;
+
+        justify-content: space-between;
+    }
+
+    .navegacao_container {
+        justify-content: space-around;
+    }
+
+    .perfil_container {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60rem;
+    }
+
+    #foto_perfil {
+        margin: 0 auto;
+        height: 27rem;
+    }
+
+    .paragrafo_perfil {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1280px) {
+    .items_redes_sociais {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .menu {
+        width: 25rem;
+    }
+
+    h1 {
+        font-size: 6.8rem;
+    }
+
+    .titulo {
+        font-size: 3.2rem;
+    }
+
+    .paragrafo {
+        font-size: 2.5rem;
+    }
+
+    .paragrafo_citacao {
+        font-size: 2.8rem;
+        padding-top: 2rem;
+        margin: 2.5rem auto 0 auto;
+    }
+
+    li {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    #texto_button {
+        font-size: 1.2rem;
+    }
+
+    #logo_fb_footer {
+        height: 3rem;
+    }
+}
+
+@media (max-width: 1270px) {
+    .perfil_container {
+        height: 63rem;
+    }
+}
+
+@media (max-width: 1140px) {
+    #foto_perfil {
+        height: 24rem;
+    }
+}
+
+@media (max-width: 1020px) {
+    .banner {
+        height: 17rem;
+    }
+
+    .perfil_container {
+        height: 60rem;
+    }
+
+    .paragrafo {
+        font-size: 2rem;
+    }
+
+    .paragrafo_citacao {
+        padding-top: 3rem;
+
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 915px) {
+    #foto_perfil {
+        height: 18rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .menu {
+        width: 20rem;
+    }
+
+    .logo_mara_menu {
+        margin-left: 3rem;
+    }
+
+    .paragrafo_citacao {
+        padding-top: 0;
+        font-size: 2rem;
+        height: 13rem;
+    }
+
+    #foto_perfil {
+        height: 15rem;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+
+    #texto_button,
+    p {
+        font-size: 1rem;
+    }
+
+    footer {
+        height: 8%;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .menu_items {
+        display: none;
+    }
+
+    .menu {
+        width: 15rem;
+    }
+
+    .navegacao_container {
+        justify-content: center;
+    }
+
+    p {
+        margin-left: 5rem;
+    }
+
+    .perfil_container {
+        height: 58rem;
+    }
+
+    .paragrafo {
+        font-size: 1.7rem;
+    }
+
+    .autora {
+        margin: 2rem 0;
+    }
+
+    .foto_autora {
+        width: 10rem;
+    }
+
+    button {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 620px) {
+    #foto_perfil {
+        height: 12rem;
+    }
+
+    .paragrafo_citacao {
+        font-size: 1.7rem;
+    }
+
+    #texto_button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 590px) {
+    .banner {
+        height: 13rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .titulo {
+        font-size: 2.5rem;
+    }
+
+    .perfil_container {
+        line-height: 3rem;
+    }
+
+    #foto_perfil {
+        height: 13rem;
+    }
+
+    .paragrafo_citacao {
+        font-size: 1.8rem;
+    }
+
+    .navegacao {
+        height: 5%;
+    }
+
+    .logo_mara_menu {
+        width: 10rem;
+        height: 3rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .paragrafo {
+        font-size: 1.5rem;
+    }
+
+    .paragrafo_citacao {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .footer_container {
+        width: 90%;
+    }
+
+    h5 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .paragrafo {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 470px) {
+    p {
+        margin-left: 3rem;
+    }
+
+    #foto_perfil {
+    margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .paragrafo {
+        text-indent: 3rem;
+    }
+
+    .emilia {
+        margin: 2rem auto 0 auto;
+        width: 80vw;
+    }
+
+    .perfil_container, .perfil_container_2, .citacao, .historia {
+    width: 80%;
+    }
+
+    .citacao {
+        margin-top: 3rem;
+    }
+
+    .foto_autora {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    footer {
+     height: 10%;
+    }
+}
+
+@media (max-width: 390px) {
+    li {
+        font-size: 1.1rem;
+    }
+
+    .perfil_container {
+        height: 40%;
+    }
+
+    .paragrafo {
+        line-height: 2rem;
+    }
+
+    .paragrafo_citacao {
+        font-size: 1.3rem;
+    }
+}
