@@ -48,7 +48,7 @@ p{
     justify-content: center;
     height: 500px;
     color: white;
-    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(/On8-projeto-I/personalidade/angela-davis/img/angela-davis-1.jpg);
+    background-image: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)),url(/On8-projeto-I/personalidade/angela-davis/img/angela-davis-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
