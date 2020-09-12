@@ -125,10 +125,10 @@ li {
 @media (min-width: 768px) {
   /* --- NAV --- */
   .navegacao__itens {
-      position: static;
-      display: flex;
-      padding: 0;
-      width: auto;
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
       }
   }
 
