@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+
+}
+html{
+    font-size: 10px;
+}
+
+ body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+ }
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+p{
+    color: #63458A;
+    font-size: 2em;
+    line-height: 25px;
+    
+}
+.menu_nav{
+    background-color: #674582;
+}
+
+.img-responsive {
+    width: 100%;
+  } 
+
+/* HEADER */
+
+.banner{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    color: white;
+    background-image: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)),url(/On8-projeto-I/personalidade/angela-davis/img/angela-davis-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner_persona{
+    font-size: 3em;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+/* INTRODUÇÃO DA PERSONALIDADE */
+
+.box__introducao{
+    text-align: left;
+    padding: 2rem; 
+    width: 60%   
+
+}
+.titulo {
+    text-align: center;
+    color: #63458A;
+    font-size: 2.5em;
+    margin: 2%;
+    padding: 15px;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__personalidade{
+    display: inline-block;
+    margin-right: 20px;
+    height: 108px;
+
+}
+
+/* HISTÓRIA */
+
+.box__citacao{
+    text-align: left;
+    padding: 5px; 
+    width: 60% 
+
+}
+
+/* CITAÇÃO */
+
+.citacao{
+    border: 1px solid #63458A;
+    padding: 15px;
+    margin: 5% 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 30px;
+    text-align: center;
+    color:#63458A;;
+}
+
+/* HISTORIA DA PERSONALIDADE */
+
+.titulo__historia{
+    color: #63458A;
+    font-size: 2.2em;
+    padding: 1rem 0;
+
+}
+.box__historia{
+    width: 60%;
+}
+
+.img__historia{
+    width: 100%;
+    height: 60vh;
+    margin: 3% 0;
+}
+
+/* SOBRE A AUTORA */
+
+.box__autora{
+    /* display: flex;
+    justify-content: center; */
+    background-color: #E4B7E5;
+
+}
+
+.sobre__autora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+
+}
+
+.img__autora{
+    margin-right: 20px;
+    height: 200px;
+
+}
+
+.descricao__autora{
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+/* BOTÃO VER TODAS ELAS*/
+
+.btn{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 18%;
+    background: #C083B9;
+    border-radius: 10px;    
+    margin-bottom: 4% ;
+}
+
+.btn_roxo{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+/* RODAPE */
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .rodape__principal > * {
+    margin: 1rem 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+  }
+  
+  .rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+  }
+  
+  .rodape__redes-sociais a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+  }
+  
+  .rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+
+  
