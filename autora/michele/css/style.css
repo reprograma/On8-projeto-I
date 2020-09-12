@@ -127,13 +127,6 @@ li {
     top: 4.4rem;
     margin: 0.5rem;
 }
-.itens_lista_img_midia{
-    
-}
-.img_midia_social{
-    
-}
-
 .sessao_banner{
     width: 100%;    
      background: url(/home/img/bg-banner-claro.png);
@@ -151,10 +144,8 @@ li {
     align-items: flex-end;
     width: 100%;
     height: 8vh;
-    
 }
-.paragrao_banner{
-}
+
 .titulo_banner{
     font-family: "Montserrat";
     font-style: normal;
