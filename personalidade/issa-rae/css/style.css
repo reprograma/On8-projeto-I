@@ -8,7 +8,7 @@
 
 body {
     margin:0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;    
     color: #63458A;
@@ -42,7 +42,6 @@ a:hover {
     box-shadow: 0px 5px 5px rgba(0,0,0,.2);
 
 }
-
 
 .nav__header a {
     transition: all .5s;
@@ -97,12 +96,13 @@ a:hover {
 }
 
 header {
-    background-image: url('../img/eu.jpg');
+    background-image: url(../img/insecure-header.jpg);
     background-size: cover;
-    background-position: center 30%;
+    background-position: center 23%;
     height: 65vh;
     display: flex;
     justify-content: center;
+    min-height: 4x00px;
 }
 
 h1 {
@@ -112,6 +112,7 @@ h1 {
     text-transform: uppercase;
     color: #fff;
     font-size: 3rem;
+    text-shadow: 2px 2px 5px #000;
 }
 
 main {
@@ -125,91 +126,80 @@ h2 {
     margin: 2rem 0;
 }
 
+h2 span {
+    color: #C083B9;
+    font-style: oblique;
+}
+
 section {
     margin: 3rem auto;
     width: 85%;
     max-width: 900px;
 }
 
-.sobre-mim {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
-
-.sobre-mim img {
-    max-width: 180px;
-    border-radius: 1rem;
-}
-
-
-.sobre-mim__redes {
-    text-align: center;
-    font-weight: 700;
-}
-
-hr {
-    width: 30%;
-    max-width: 300px;
-    background-color: #674582;
-    border: 1px solid #674582;
-    margin: 6.5rem auto 4rem;
-}
-
-.h2_maravilhosas {
-    padding: 1.5rem 0 1.5rem 0;
-}
-
-.sobre-proj_p {
-    margin-top: 2.2rem;
-}
-
-.sobre-proj span {
-    color: #C083B9;
-    font-weight: 600;
-}
-
-.sobre-proj img {
-    margin: 1rem auto;
-    max-width: 100%;
-}
-
-.legenda {
-    text-align: center;
-    margin: 0;
-    color: #6D6D6D;
-    font-size: .8em;
-    font-style: oblique;
-}
-
-.maravilhosas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-
-.maravilhosas div {
-    margin: 1rem ;
+.resumo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.maravilhosas a:hover p {
-    color: #C083B9;
-}
-
-.maravilhosas img { 
+.resumo img { 
     max-width: 150px;
     border-radius: 1rem;
 }
 
-.maravilhosas p {
+.resumo p {
+    margin-top: 2rem;
+}
+
+.citacao {
+    border: 1px solid #63458A;
+}
+
+.citacao p {
+    padding: 1.5rem 3.5rem;
+    line-height: 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
     text-align: center;
-    color: #000;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem; 
+}
+
+.historia p {
+    margin: 1.5rem auto;
+}
+
+.historia img {
+    margin: 1.5rem auto;
+    max-width: 100%;
+}
+
+.autora {
+    background-color: #E4B7E5 ;
+    font-weight: 700;
+}
+
+.autora__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.autora__section img {
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.autora_a_img {
+    height: 220px;
 }
 
 .botao {
@@ -256,8 +246,6 @@ footer {
     justify-content: space-evenly;
 }
 
-
-
 .nav__footer a {
     transition: all .5s;
 }
@@ -290,32 +278,23 @@ footer {
     font-size: 1rem;
 }
 
-
 @media (min-width:768px)
 {
     :root {
-        font-size: 12px;
+        font-size: 13px;
     }
 
-    .sobre-mim {
+    .autora__section {
         flex-direction: row;
+        padding: 0;
+        justify-content: start;
     }
 
-    .sobre-mim div {
-        height: min-content;
-        justify-content: space-between;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .sobre-mim img {
-        margin-right: 2.5rem;
+    .autora__section img {
+        border-radius: 0;
         margin-bottom: 0;
-    }
-
-    .sobre-mim__redes {
-        text-align: left;
+        padding: 0 4rem 0 6rem;
+        max-height: 225px;
     }
 
     .nav__footer {
@@ -332,6 +311,17 @@ footer {
         line-height: 1.6em;
     }
 
+    .resumo p { 
+        margin-left: 4rem;
+        margin-top: 0;
+     }
+ 
+     .resumo {
+         flex-direction: row;
+         width: 100%;
+         max-width: 650px;
+     }
+
    footer {
         font-size: 1.1rem;
     }
@@ -342,15 +332,6 @@ footer {
     section {
         max-width: 55%;
     }
-
-   
-
-   
-    .maravilhosas {
-        justify-content: space-between;
-    
-    }
-    
 
     .nav--mobile {
         display: none;
