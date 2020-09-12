@@ -1,0 +1,268 @@
+/* MOBILE FIRST !!!
+@media (min-width: 420px){
+
+.navegacao{
+    background-color: blue;
+}
+*/
+
+/* IPAD !!!
+
+@media (min-width: 768px){
+
+
+.navegacao{
+    background-color: rgb(45, 194, 65);
+}
+
+*/
+
+/* WEB!!! */
+
+/*navegacao web */
+
+.navegacao{
+    background-color: rgb(212, 16, 16);
+    display: flex;
+    padding: 1.5rem;
+    z-index: 99;
+    justify-content: space-around;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 249px;
+    height: 69px;
+    left: 360px;
+    top: 32px;
+    position: absolute;
+
+}
+
+.navegacao-menu{
+    position: absolute;
+    left: 700px;
+    top: -20px;
+    height: 19px;
+    padding: 3rem 0;
+    transition: right 1s;
+
+
+}
+
+.navegacao-img{
+    margin: 0 1rem;
+}
+
+.header {
+    min-height: 80vh;
+    height: 50px;
+    width: auto;
+    background: linear-gradient(rgba(90, 206, 105, 0.2),
+                                rgba(69, 71, 179, 0.2)),
+                url(../img/frida.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+
+}
+
+.titulo-banner {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 600px;;
+}
+
+.titulo-1{
+   text-align: center;
+}
+
+.imagem-1{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    top: 30px;
+    width: 600px;
+}
+
+.imagem-sec1{
+    max-width:400px;
+    max-height:250px;
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+.texto-1{
+    margin-left: 30px;
+}
+
+.eu2{
+    display: flex;
+}
+
+.espaco{
+    justify-content: center;
+}
+
+
+
+.frase{
+    border: 1px solid #63458A;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    top: 30px;
+    width: 600px;
+}
+
+
+.titulo-historia{
+    font-size: 20px;
+    text-align: center;
+}
+
+.historia{
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: auto;
+}
+
+.historia-texto{
+    width: 600px;
+    margin-left: 450px;
+    margin-right: -300px;
+
+
+}
+
+.img-historia{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    top: 30px;
+    width: 600px;
+    margin-left: 450px;
+    margin-right: -300px;
+}
+  
+.p2{
+    width: 600px;
+    margin-left: 450px;
+    margin-right: -300px;
+}
+
+.eu{
+    max-width: 400px;
+    max-height: 250px;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-left: -380px;
+}
+
+#rectangle{
+    margin: auto;
+    margin-top: 50px;
+    width: 1510px;
+    height: 200px;
+    background: coral;
+    display: flex;
+}
+
+.autora-texto{
+    width: 136px;
+    margin-left: 718px;
+    margin-top: 68px;
+}
+
+.botao{
+    display: inline-block;
+    margin: 5rem;
+    padding: 1rem 1.5rem;
+    background: yellowgreen;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 665px;
+
+
+}
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .rodape__principal > * {
+    margin: 1rem 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+  }
+  
+  .rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+  }
+  
+  .rodape__redes-sociais a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+  }
+  
+  .rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+  }
