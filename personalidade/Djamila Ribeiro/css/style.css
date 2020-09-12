@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html, body {
+    font-size: 10px;
+    overflow-x: hidden;
+  
+  }
+  
+.navegacao {
+    position: absolute;
+    width: 1350px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    background: #674582;
+}
+
+.nav_logo{
+    position: absolute;
+    max-width: 50%;
+    margin-block: 15px;
+    padding-left: 15%;
+
+}
+
+
+.navegacao-rede{
+position: absolute;
+display: flex;
+align-items: center;
+padding: 5rem;
+float:right;    
+}
+
+.nav-rede > li{
+position: absolute;
+margin-right:rem;
+padding: 10rem;
+color: #C083B9;
+font-size: 150%;
+
+}
+
+.link-reprograma{
+position: absolute;
+width: 273px;
+height: 22px;
+left: 984px;
+top: 55px;
+}
+
+.artigo-img{
+position: absolute;
+width: 201px;
+height: 211px;
+left: 340px;
+top: 827px;
+}
+
+.titulo{
+position: absolute;
+color: #63458a;
+font-size: 3rem;
+text-align: center;
+top: 700px;
+width: 110%;
+}
+
+.titulo-roxo{
+ position: absolute;
+width: 600px;
+height: 88px;
+left: 100%;
+top: 290px;
+font-size: 5rem;
+color: #ffff
+
+
+}
+
+.artigo-intro{
+ position: absolute;
+width: 410px;
+height: 187px;
+left: 580px;
+top: 833px;
+font-size: 2rem;
+color: #63458A;
+}
+
+.citacao{
+position: absolute;
+width: 850px;
+height: 150px;
+left: 250px;
+top: 1160px;
+font-weight: bold;
+font-size: 2rem;
+line-height:50px;
+text-align: center;
+color: #63458A;
+background-color: white;
+border: 1px solid #63458A;
+box-sizing: border-box;
+}
+
+.subtitulo{
+position: absolute;
+width: 227px;
+height: 50px;
+left: 249px;
+top: 1344px;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 47px;
+color: #63458A;
+}
+
+.paragrafo{
+position: absolute;
+width: 900px;
+height: 365px;
+left:249px;
+top: 1405px;
+font-size: initial;
+color: #63458A;
+}
+
+.paragrafo-2{
+  position: absolute;
+  width: 900px;
+  height: 365px;
+  left:249px;
+  top: 1475px;
+  font-size: initial;
+  color: #63458A;
+  } 
+
+
+.paragrafo_his{
+position: absolute;
+ width: 926px;
+ height: 365px;
+ left:249px;
+ top: 1950px;
+ font-size: initial;
+ color: #63458A;
+    }
+
+.paragrafo_img{
+position: absolute;
+width: 900px;
+height: 330px;
+left: 249px;
+top: 1586px;
+
+
+}
+.body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.banner-principal{
+position: absolute;
+width: 1350px;
+height: 80vh;
+left: 0px;
+top: 69px;
+padding: 80px;
+}
+
+/* RETANGULO*/
+
+.autora{
+position: absolute;
+width: 1351px;
+height: 251px;
+left: 0px;
+top: 2102px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 40px;
+
+background: #E4B7E5;
+}
+.autora-paragrafo{
+position: absolute;
+width: 400px;
+height: 116px;
+left: 654px;
+top: 50px;
+color: #63458A;
+}
+
+.autora-par{
+position: absolute;
+width: 900px;
+height: 365px;
+left:654px;
+top: 75px;
+color: #63458A;
+}
+
+
+.autora-img{
+position: absolute;
+width: 250px;
+height: 250px;
+left: 380px;
+}
+
+.bnt{
+  position: absolute;
+  width: 277px;
+  height: 47px;
+  left: 557px;
+  top: 307px;
+  background: #C083B9;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 39px;
+  text-align: center;
+  color: white;
+
+}
+
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .rodape__principal > * {
+    margin: 1rem 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+  }
+  
+  .rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+  }
+  
+  .rodape__redes-sociais a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+  }
+  
+  .rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .rodape__cc {
+    width: 103%;
+    position: absolute;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+    top: 2562px;
+  }
