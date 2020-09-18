@@ -213,6 +213,8 @@ li {
 
 .maravilhosas__perfil a img {
   transition: all .5s;
+  width: 160px;
+  height: 160px;
 }
 
 
