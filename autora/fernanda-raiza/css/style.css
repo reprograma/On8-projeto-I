@@ -1,0 +1,396 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Barra de navegação*/ 
+
+.barnav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #674582;
+    height:70px;
+}
+
+
+.logo-mara {
+    height: 2.5rem;
+    margin: 1rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: -webkit-fill-available;
+
+}
+
+.menu-ham {
+    height: 2.5rem;
+    display: flex;
+    margin: 1rem;
+    padding-left: 7rem;
+
+}
+
+.nav__conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-right: 1rem;
+}
+
+.icones__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8rem;
+}
+
+.item {
+    
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.60rem;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.icones {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+/* Banner*/ 
+
+.cabecalho {
+    background: url(/autora/fernanda-raiza/img/sprc.jpg) repeat center;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.titulobranco{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom:1rem ;
+}
+
+/* inicio da personalidade */ 
+
+.titulobafao {
+    display: block;
+    color: #63458A;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.inicio__autora {
+    text-align: center;
+
+}
+
+.img__autora {
+    width: 10rem;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.paragrafo {
+    margin-top: 0.50rem;
+    text-align: left;
+    margin-left: 1rem;
+    padding: 1rem;
+    color: #63458A;
+}
+
+/* história da personalidade*/ 
+
+.tituloautora{
+    font-family: 'Roboto Slab', serif;
+    color: #63458A;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.paragrafo__historia {
+    color: #63458A;
+    text-align: left;
+    padding:1rem ;
+    margin-left: 1rem;
+}
+
+.img-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.img__fundo {
+    width: 60%;
+    height: 60vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.titulo__maravilhosas {
+    font-family: 'Roboto Slab', serif;
+    color: #63458A;
+    text-align: center;
+}
+
+/*box de fotos*/
+
+.foto__mara {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mara {
+    height: 13rem;
+    margin: 2rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.paragrafo__mara {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+/*Botão*/
+
+.btn-todas {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.btn__rosa {
+    background: #C083B9;
+    width: 12rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* footer*/ 
+
+.nav__footer {
+    height: 100px;
+    background-color: #323534;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__lsfooter {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 1.25rem;
+    color: #F3F3F3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    align-items: center;
+    
+}
+
+.logo__mara {
+    display: block;
+    justify-content: center;
+    height: 5rem;
+
+}
+
+.item__footer {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-right: 1rem;
+
+}
+
+
+.creative {
+    height: 30px;
+    background-color: #292A2A;
+    text-align: center;
+    display: flex;
+
+}
+
+.paragrafo-footer {
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+
+/*medias*/
+
+
+@media screen and (min-width:1520px) {
+    .barnav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #674582;
+        height:70px;
+    }
+
+    .menu-ham {
+        display:none;
+    }
+
+    .logo-mara {
+        height: 2.5rem;
+        margin: 1rem;
+        margin-left: 10rem;
+        
+    }
+
+    .cabecalho {
+        background-position: top;
+    }
+
+    .inicio__autora {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__autora {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paragrafo {
+        display: flex;
+        width: 42%;
+        align-items: center;
+    }
+
+    .historia__autora {
+        display: inline-block;
+        justify-content: center;
+        margin-right: 18rem;
+        margin-left: 20rem;
+    }
+    
+    .img__fundo {
+        height: 40vh;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 360px) and (max-width:760px) {
+    .icones__nav {
+        display: none;
+        margin:0
+    }
+
+    .nav__conteudo {
+        display: none;
+    }
+
+    .nav__footer {
+        display: flex;
+
+    }
+
+    .logo__mara {
+        display: none;
+    }
+}
+
+@media screen and (min-width:760px) {
+    .menu-ham {
+        display:none;
+    }
+
+    .cabecalho {
+        background-position: top;
+    }
+
+    .inicio__autora {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__autora {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paragrafo {
+        display: flex;
+        width: 42%;
+        align-items: center;
+    }
+
+   
+}
+
+@media screen and (min-width: 1000px) and (max-width:1520px) {
+    .menu-ham {
+        display:none;
+    }
+
+    .cabecalho {
+        background-position: top;
+    }
+
+    .inicio__persona {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__persona {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paragrafo {
+        display: flex;
+        width: 42%;
+        align-items: center;
+    }
+}
