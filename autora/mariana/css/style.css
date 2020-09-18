@@ -1,0 +1,546 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+/* NAV */
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#674582;
+    height: 15vh;
+    width: 100%;
+}
+
+.navegacao-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.nav-img{
+    max-width: 200px;
+    width:100%;
+    padding: 1.5rem;
+    margin-left: .8rem;
+}
+
+#menu-responsivo{
+    display: none;
+}
+
+#menu-hamb{
+    display: block;
+}
+
+.menu-hamburguer{
+    position: relative;
+    cursor: pointer;
+}
+
+.img-hamb{
+    width: 100%;
+    min-width: 30px;
+}
+
+.nav-lista-responsivo{
+    display: none;
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    padding: .5rem;
+    top: 30px;
+    right: 0;
+    color: rgb(0, 0, 0);
+    background: #e2d6e7ab;
+}
+
+.lista2{
+    margin-top: .4rem;
+    margin-bottom: .5rem;
+    margin-left: 2rem;
+}
+
+.menu-hamburguer:hover .nav-lista-responsivo{
+    display: block;
+}
+
+.navegacao-itens{
+    align-items: center;
+}
+
+.nav-lista{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.nav-item{
+    margin-left: 1.2rem;
+    font-size:.9rem;
+}
+
+.nav-img-redes{
+    margin-left: 3.2rem;
+}
+
+.img-redes{
+    max-width: 35px;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+
+/* HEADER */
+.cabecalho{
+    background: url(/autora/mariana/img/background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.cab-titulo{
+    color:#fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 4px 2px #63458A;
+}
+
+
+/* MAIN */
+.artigo-geral{
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+}
+
+.artigo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+}
+
+.titulo-artigo{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #63458A;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4rem;
+}
+
+.imagem-artigo{
+    max-width: 120px;
+    width: 100%;
+    border-radius: 3%;
+}
+
+.p-artigo{
+    margin-top: 1.4rem;
+    color: #63458A;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.lista-artigo{
+    display: flex;
+    margin-top: 1.4rem;
+    color: #63458A;
+    font-weight: bold;
+}
+
+.item-artigo{
+    margin-right: .4rem;
+}
+
+.sessao-linha{
+    display: flex;
+    justify-content: center;
+}
+
+.linha{
+    margin-top: 3rem;
+}
+
+.titulo-sobre{
+    color: #63458A;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.paragrafo-sobre{
+    margin:0 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    text-align: justify;
+    color: #63458A;
+}
+
+.legenda-sobre{
+    display: flex;
+    color: #63458A;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+}
+
+.img-sobre{
+    display: block;
+    min-width: 250px;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    padding: 0.5rem 3rem .8rem;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.galeria-box{
+    margin-bottom: 2rem;
+}
+
+.galeria-img{
+    display: block;
+    max-width: 120px;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    border-radius: 3%;
+}
+
+.galeria-parag{
+    text-align: center;
+    margin-top: 1rem;
+    color:#63458A;
+
+}
+
+.botao{
+    display: block;
+    background-color: #C083B9;
+    border-radius: 2%;
+    height: 6vh;
+    color: #fff;
+    max-width: 180px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+}
+
+
+/* FOOTER */
+.redes-footer{
+    display: flex;
+    background-color: #323534;
+    height: 28vh;
+    color: #F3F3F3;
+    align-items: center;
+    margin-top: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.lista-footer{
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0;
+    margin-bottom: 2rem;
+}
+
+.img-footer{
+    max-width: 130px;
+    width: 100%;
+    margin: 0 2rem;
+}
+
+.facebook-footer{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.icone-facebook{
+    max-width: 10px;
+    width: 100%;
+}
+
+.texto-footer{
+    display: flex;
+    background-color: #292A2A;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer{
+    display: inline-block;
+    color: #fff;
+    font-size: .9rem;
+    text-align: center;
+}
+
+/*** MEDIA QUERIES ***/
+/* TABLET */
+@media (min-width: 768px) {
+    html{
+        font-size: 12px;
+    }
+    
+    #menu-responsivo{
+        display: flex;
+    }
+    
+    #menu-hamb{
+        display: none;
+    }
+
+    .cabecalho{
+        height: 40vh;
+        background-position: 0 10%;
+    }
+
+    .artigo-geral{
+        max-width: 580px;
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    .artigo{
+        flex-wrap: nowrap;
+    }
+
+    .imagem-artigo{
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .p-artigo{
+        padding-left: 3rem;
+        margin-top: 0;
+    }
+
+    .artigo-autora{
+        margin-top: -2.8rem;
+        margin-left: 12.5rem;
+    }
+
+    .lista-artigo{
+        margin-top: -1.2rem;
+        margin-left: 15.5rem;
+    }
+
+    .sobre{
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    
+    .galeria{
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .galeria-img{
+        height: 22vh;
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .botao{
+        font-size: 1.1rem;
+        align-items: center;
+        max-width: 200px;      
+    }
+
+    .redes-footer{
+        height: 18vh;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .lista-footer{
+        margin-bottom: 0;
+    }
+
+    .img-footer{
+        max-width: 170px;
+        width: 100%;
+        margin: 0 7rem;
+    }
+
+    .facebook-footer{
+        margin-top: 1rem;
+    }
+
+}
+
+@media (min-width: 1024px){
+    html{
+        font-size: 15px;
+    }
+
+    .nav-img{
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .img-redes{
+        max-width: 42px;
+        width: 100%;
+    }
+    
+    .imagem-artigo {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .artigo-geral {
+        max-width: 800px;
+    }
+
+    .sobre{
+        max-width: 800px;
+    }
+
+    .imagem-artigo {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .artigo-autora {
+        margin-left: 13.5rem;
+    }
+
+    .lista-artigo {
+        margin-left: 16.5rem;
+    }
+
+    .galeria{
+        max-width: 800px;
+    }
+
+    .galeria-img{
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .botao{
+        font-size: 1.4rem;
+        height: 8vh;
+        max-width: 300px;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .redes-footer{
+        height: 16vh;
+    }
+
+}
+
+/* DESKTOP */
+@media (min-width: 1440px){
+    html{
+        font-size: 20px;
+    }
+
+    .artigo-geral {
+        max-width: 900px;
+        padding-right: 0;
+    }
+
+    .sobre{
+        max-width: 950px;
+    }
+
+    .imagem-artigo {
+        max-width: 260px;
+        width: 100%;
+    }
+
+    .artigo-autora {
+        margin-left: 13rem;
+    }
+
+    .lista-artigo {
+        margin-left: 16rem;
+    }
+
+    .galeria{
+        max-width: 900px;
+    }
+
+    .galeria-img{
+        max-width: 250px;
+    }
+ 
+     .botao{
+        font-size: 1.2rem;
+        max-width: 350px;
+        justify-content: center;
+    }
+
+    .img-footer{
+        max-width: 250px;
+        width: 100%;
+    }
+}
+
+
