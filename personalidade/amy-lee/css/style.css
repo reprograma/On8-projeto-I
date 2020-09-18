@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: #E5E5E5; */
+    background: #FFFFFF;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+ a:hover {
+    color: #C083B9;
+  }
+  
+
+ul {
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+li {
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+    font-size: 15px;
+   
+    
+}
+
+/* --- NAV --- */
+
+.logotipo{
+    max-width: 20rem;
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    
+}
+.img{
+ 
+    width: 100%;
+    margin-bottom: 10rem;
+
+
+  
+  }
+
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    height: 6rem;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    
+    
+   
+
+}
+
+.navegacao-listas{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    
+    
+}
+
+.navegacao-redessociais  {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    padding-right: 20rem;
+   
+    
+   
+   
+}
+
+.navegacao-redessociais img {
+    padding: 0.9rem;
+    
+    
+
+}
+
+/* HEADER */
+.banner-header{
+/* min-height: 80vh; */
+height: 50rem;
+background: linear-gradient(rgba(255, 0, 255, 0.2),
+                            rgba(255, 0, 255, 0.2)),
+            url(../img/amylee4.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: white;
+
+
+}
+
+.titulo{
+   
+width: 60rem;
+height: 8.8rem;
+left: 40rem;
+/* top: 527px;  */
+ position: absolute;
+
+
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 88px;
+
+
+
+
+
+
+}
+
+/* SESSÃO SOBRE ELA */
+
+.sobre-ela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 4rem;
+}
+
+.session-box{
+    background-color: #674582;;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.foto-perfil{
+    background: url(../img/foto-amylee.jpg);
+    height: 20rem;
+    width: 20rem;
+    border-radius: 100px;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.titulo-body{
+   
+        text-align: center;
+        color: #674582;
+        padding: 1rem;
+      
+        font-size: 2rem;
+        margin-top: 2rem;
+        
+      
+}
+
+.paragrafo{
+    /* display: flex;
+    
+    padding: 10px;
+  align-items: center;
+    font-size: 1.8rem;
+    
+  
+    align-items: center;
+    flex-wrap: nowrap;
+ */
+
+display: inline-block;
+width: 50rem;
+text-align: left;
+padding: 5rem;
+font-size: 1.8rem;
+color: #674582;
+
+    
+}
+
+/* --- CITACAO --- */
+
+.citacao{
+   
+    /* text-align: center; */
+    color: #674582;
+    /* padding: 50px; */
+    
+    font-size: 2rem; 
+    margin-top: 2rem;
+    /* display: inline-flex;  */
+     /* justify-content: space-between; */
+    padding: 2rem;
+    text-align: left;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 40rem;
+    border: 1px #674582 solid;
+    width: 60rem;
+    
+  
+}
+
+/* ---HISTORIA --- */
+.historia{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: #674582;
+    
+}
+
+.imagem-historia{
+    background: url(../img/amylee3.jpg);
+    height: 40rem;
+    width: 60rem;
+    background-size: cover;
+    text-align: center;
+    margin-left: 40rem;
+}
+
+.titulo-historia{
+   
+    text-align: left;
+    color: #674582;
+    padding: 1rem;
+    
+    font-size: 2rem;
+    margin-left: 31rem;
+    margin-top: 2rem;
+    
+  
+}
+
+.paragrafos{
+     display: flex;
+  
+    
+width: 80rem;
+text-align: left;
+padding: 2rem;
+font-size: 1.8rem;
+align-items: center;
+justify-content: center;
+margin-left: 30rem;
+
+}
+
+
+
+
+
+.autora{
+   
+    background-color:  #E4B7E5;
+    display: flex;
+   
+    justify-content: center;
+}
+
+.autora-img{
+    background: url(../img/drifoto.jpg);
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+  
+}
+
+.texto-autora{
+    margin-top: 7rem;
+    padding-left: 3rem;
+    color: #674582;
+    font-weight: bolder;
+}
+.paragrafo-autora{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    padding: 0.3rem;
+    
+    
+}
+
+/* --- BOTAO --- */
+
+.botao{
+    margin-top: 5rem;
+}
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+  }
+  
+  .btn_roxo {
+    color: white;
+    background-color: #C083B9;
+    display: block;
+    max-width: 250px;
+    text-align: center;
+    transition: all .5s;
+    margin: 0 auto;
+  }
+  
+  .btn_roxo:hover,
+  .btn_roxo:focus {
+    transform: translateY(-1rem);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    background-color: rgb(192, 156, 188);
+  }
+  
+  .btn_roxo:active {
+    transform: translateY(-.5rem);
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+  }
+  
+  .btn_center {
+    margin: 0 auto;
+  }
+
+  /* --- FOOTER --- */
+
+  .rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+    margin-top: 5rem;
+    justify-content: space-around;
+  }
+  
+  .rodape__principal {
+ 
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .rodape ul{
+      display: inline;
+      
+  }
+
+  .rodape li{
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+  }
+  .rodape__principal > * {
+    margin: 1rem 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+  }
+
+  .rodape__redes-sociais{
+      display: flex;
+      
+  }
+  
+  .rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+    
+    
+  }
+  
+  .rodape__redes-sociais a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__redes-sociais img {
+    max-width: 1rem;
+    margin-right: .5rem;
+  }
+  
+  .rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.8rem;
+  }
+  
+  .rodape__frases {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+
+
+  .img-footer{
+      width: 100%;
+      
+  }
+
+  /* --- MEDIA QUERIES --- */
+
+
+  
+
+  @media screen and (max-width: 1100px){
+
+   
+
+    /* .navegacao-redessociais, .navegacao-listas  {
+    display: none;
+    } */
+
+    /* .navegacao{
+        margin: 0;
+        padding: 0;
+        
+        display: block;
+        width: 100%;
+        position: unset;
+    } */
+
+    .logotipo, .img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .titulo{
+       left: 30px;
+    }
+
+    .sobre-ela{
+        display: flex;
+    }
+
+    
+
+    .foto-perfil{
+        display: flex;
+        
+
+    }
+
+    .paragrafo{
+        margin-left: 0.5rem;
+        
+    }
+
+    .citacao{
+      
+        margin-left: 25rem;
+    }
+    
+    .titulo-historia{
+        margin-left: 20rem;
+    }
+     .paragrafos{
+        margin-left: 20rem;
+        width: 700px;
+    }
+
+    .imagem-historia{
+        margin-left: 22rem;
+    }
+
+
+  }
+
+/* --IPAD -- */
+  @media screen and (max-width: 768px){
+
+   
+    
+     .navegacao{
+      margin: 0;
+      padding: 0;
+      
+      display: flex;
+      width: 100%;
+      position: unset;
+    } 
+
+    .navegacao-redessociais img{
+      padding: 0.2rem;
+      margin-top: 3rem;
+    }
+    
+     
+       
+    .logotipo, .img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .titulo{
+       left: 30px;
+    }
+
+    .sobre-ela{
+        display: block;
+    }
+
+    .session-box{
+      margin-left: 230px;
+      width: 220px;  
+    }
+
+    .foto-perfil{
+        display: flex;
+        
+
+    }
+
+    .paragrafo{
+        margin-left: 5rem;
+        width: 600px;
+    }
+
+    .citacao{
+      
+        margin-left: 7rem;
+    }
+    
+    .titulo-historia{
+        margin: 3.3rem;
+    }
+     .paragrafos{
+        margin-left: 3.3rem;
+        width: 700px;
+    }
+
+    .imagem-historia{
+        margin: 6rem;
+    }
+
+
+  }
+
+  
+
+  @media screen and(max-width: 375px){
+    .banner-header{
+      height: 40rem;
+      
+      width: 90%;
+    }
+
+    .navegacao{
+      width: 10rem;
+    }
+
+    .sobre-ela{
+      margin-left: 5rem;
+    }
+
+    .paragrafo, .paragrafos{
+      margin-left: 10rem;
+      font-size: 2rem;
+    }
+  }
+
+
+  @media screen and (max-width: 420px){
+
+    .banner-header{
+      width: 80rem;
+    }
+    .navegacao{
+      width: 100%;
+      width: 80rem;
+    }
+
+    .navegacao-listas, .navegacao-redessociais{
+      display: none;
+    }
+
+    .logotipo img{
+      margin: 0;
+      padding: 0;
+    }
+
+    .autora, .rodape{
+      width: 80rem;
+    }
+  }
+
+  @media screen and (max-width: 540px){
+    .banner-header{
+      
+      height: 40rem;
+    }
+
+    .navegacao-redessociais{
+      display: none;
+    }
+
+    .sobre-ela{
+      margin-left: 1rem;
+    }
+
+    .paragrafo{
+      display: unset;
+      width: 10rem;
+    }
+
+    .citacao{
+      margin-left: 15rem;
+      font-size: 1.5rem;
+      width: 25rem;
+    }
+
+    .paragrafos{
+      display: unset;
+      width: 20rem;
+    padding-left: 2rem;
+    }
+
+    .frase{
+      margin:0;
+    }
+
+    .historia{
+      display: unset;
+    }
+
+    .imagem-historia{
+      margin-left: 1rem;
+      height: 40rem;
+      width: 50rem;
+    }
+
+    .autora{
+      margin-top: 2rem;
+    }
+
+    .titulo{
+      width: 50rem;
+    }
+
+    .session-box{
+      margin-left: 15rem;
+      margin-bottom: 3rem;
+    }
+
+  }
+
+
+  

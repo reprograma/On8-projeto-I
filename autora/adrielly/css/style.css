@@ -1,0 +1,624 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+
+
+/* --- NAV --- */
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    /* padding: 1.5rem; */
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    height: 8rem;
+
+    display: flex;
+    align-items: center;
+    
+    text-align: justify;
+   
+    margin: 0 auto;
+    
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__itens {
+display: flex;
+  /* right: -700px; */
+  /* top: 85px; */
+  width: 100%;
+
+  text-align: center;
+ padding: 0 5rem;
+  transition: right 1s;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.navegacao__itens.ativo {
+  display: block;
+  right: 0;
+  /* top: 85px; */
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 1s;
+}
+
+.navegacao__itens li > a {
+  transition: all .2s;
+  display: inline;
+}
+
+.navegacao__itens li > a:hover {
+  color: #C083B9;
+}
+
+
+.navegacao__nav {
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}
+
+.navegacao__nav li {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.navegacao__redes-sociais a {
+  margin: 0 1rem;
+}
+
+.navegacao ul{
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.navegacao__menu-hamburguer{
+  display: none;
+}
+
+
+
+
+/* --- HEADER --- */
+.banner-header{
+    
+    height: 50rem;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+                url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    
+    
+    
+    }
+
+    .titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+       
+        margin: 0 auto;
+        font-size: 5rem;
+        
+    }
+
+    /* SESSÃO SOBRE ELA */
+
+.sobre-ela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+   
+    margin: 0 auto;
+}
+
+.session-box{
+    display: inline-block;
+}
+
+
+
+.foto-perfil{
+    background: url(../img/imagem-perfil.jpg);
+    height: 20rem;
+    width: 20rem;
+   
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.titulo-body{
+   
+        text-align: center;
+        color: #674582;
+        padding: 1rem;
+      
+        font-size: 2rem;
+        margin-top: 2rem;
+        
+      
+}
+.session-paragrafo{
+    display: inline;
+}
+.sobre-redes{
+    display: flex;
+    font-weight: bolder;
+    
+}
+
+.sobre-redes li{
+    padding: 5px;
+}
+
+.amylee{
+    font-weight: bolder;
+}
+
+.listra-underline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+   
+    margin: auto;
+    color: #63458A;
+    margin-top: 50px;
+}
+.paragrafo{
+   
+    
+  
+
+width: 50rem;
+text-align: left;
+padding-left: 1rem;
+font-size: 1.8rem;
+flex-wrap: wrap;
+margin-left: 20px;
+
+
+color: #63458A;
+
+
+    
+}
+
+.paragrafo-maravilhosa{
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+   
+    margin: 0 auto;
+    width: 100rem;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    
+    color: #63458A;
+    
+    
+        
+    }
+
+    .foto-maravilhosas{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+   
+    margin: 0 auto;
+    margin-top: 20px;
+        background: url(../img/maravilhosas.jpg);
+        background-size: cover;
+        height: 400px;
+        width: 400px;
+    }
+
+    .alt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+       
+        margin: 0 auto;
+        font-size: 1rem;
+        margin-top: 5px;
+       color: #63458A;
+    }
+
+    .outras-maravilhosas{
+        display: flex;
+        
+        align-items: center;
+        justify-content: space-around;
+        text-align: justify;
+       
+        margin: 0 auto;
+    }
+
+    .outras-maravilhosas .paragrafo{
+        display: unset;
+    }
+
+    .box-maravilhosas{
+        background-color:  #63458A;
+        border-radius: 15px;
+        height: 200px;
+        width: 200px;
+        margin: 2rem;
+       
+    }
+
+   
+
+    .img-ludmila{
+        background: url(../img/ludmila.jpg);
+    background-size: cover;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px; 
+    }
+    .img-darlene{
+        background: url(../img/darlene.jpg);
+    background-size: cover;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px; 
+    }
+    .img-danielly{
+        background: url(../img/danielly.jpg);
+    background-size: cover;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px; 
+    }
+
+    /* --- BOTAO --- */
+
+.botao{
+    margin-top: 5rem;
+}
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+  }
+  
+  .btn_roxo {
+    color: white;
+    background-color: #C083B9;
+    display: block;
+    max-width: 250px;
+    text-align: center;
+    transition: all .5s;
+    margin: 0 auto;
+  }
+  
+  .btn_roxo:hover,
+  .btn_roxo:focus {
+    transform: translateY(-1rem);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    background-color: rgb(192, 156, 188);
+  }
+  
+  .btn_roxo:active {
+    transform: translateY(-.5rem);
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+  }
+  
+  .btn_center {
+    margin: 0 auto;
+  }
+
+  /* --- FOOTER --- */
+
+  .rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+    margin-top: 5rem;
+    justify-content: space-around;
+  }
+  
+  .rodape__principal {
+ 
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .rodape ul{
+      display: inline;
+      text-align: center;
+     
+      
+  }
+
+  .rodape li{
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      font-size: 1.8rem;
+  }
+  .rodape__principal > * {
+    margin: 1rem 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+    font-size: 1.8rem;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+  }
+
+  .rodape__redes-sociais{
+      display: flex;
+      
+  }
+  
+  .rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+    
+    
+  }
+  
+  .rodape__redes-sociais a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__redes-sociais img {
+    max-width: 1rem;
+    margin-right: .5rem;
+  }
+  
+  .rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.8rem;
+  }
+  
+  .rodape__frases {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+
+
+  .img-footer{
+      width: 100%;
+      
+  }
+
+  @media screen and (max-width: 1000px){
+    
+   
+    .paragrafo-maravilhosa{
+      
+      width: 600px;
+      
+    }
+  }
+
+  @media screen and (max-width: 700px){
+    .banner-header{
+      width: 100%;
+      
+    }
+  }
+  @media screen and (max-width: 540px){
+    .banner-header{
+      width: 54rem;
+      height: 30rem;
+
+    }
+    .sobre-ela{
+      display: inline;
+    }
+
+    .outras-maravilhosas{
+      display: inline;
+      
+    }
+
+
+
+    .foto-perfil{
+      margin-left: 15rem;
+    }
+
+    .navegacao__menu-hamburguer{
+      display: flex;
+     align-items: center;
+     margin-top: 1.5rem;
+    margin-left: 1rem;
+     
+     
+    }
+    .navegacao__menu-hamburguer img {
+      background-color: #C083B9;
+      border-radius: 5px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+
+
+
+  @media screen and ( max-width:768px ){
+   
+    
+   
+    .navegacao__itens{
+      display: none;
+    }
+
+    .paragrafo-maravilhosa{
+      width: 45rem;
+    }
+  }
+
+  @media screen and (max-width: 420px){
+
+    .banner-header{
+      width: 100%;
+      width: 52rem;
+      height: 40rem;
+    }
+    .navegacao{
+      display: unset;
+    }
+
+    .sobre-ela{
+      display: block;
+      margin: 0 auto;
+    }
+    .paragrafo{
+      padding: 0;
+      
+    }
+
+    .foto-perfil{
+      margin-left: 12rem;
+    }
+
+
+    .maravilhosa{
+      margin-left: 1.5rem;
+      padding-left: 1rem;
+    
+    }
+    .paragrafo-maravilhosa{
+      width: 45rem;
+    }
+
+    .outras-maravilhosas{
+      display: block;
+      margin-left: 12rem;
+    }
+
+    .botao{
+      margin-left: 7rem;
+    }
+
+    .rodape{
+      width: 52rem;
+      
+      
+    }
+
+    .rodape a{
+      font-size: 1.5rem;
+    }
+
+    .rodape span{
+      font-size: 1.5rem;
+    }
+
+    .navegacao__menu-hamburguer{
+      display: flex;
+     align-items: center;
+     margin-top: 1.5rem;
+    margin-left: 1rem;
+     
+     
+    }
+    .navegacao__menu-hamburguer img {
+      background-color: #C083B9;
+      border-radius: 5px;
+      width: 50px;
+      height: 50px;
+    }
+   
+    
+  }
