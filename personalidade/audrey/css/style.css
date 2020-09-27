@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    background-color: #674582;
+    height: 4.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    padding-right: 1rem;
+}
+
+.icon {
+    width: 2rem;
+}
+
+.link {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.link:hover {
+    color:#b993d6;
+}
+
+.banner {
+    background: url('../img/audrey-bg.png') no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 34%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #674582;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 2rem;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.about-description {
+    width: 50%;
+    line-height: 150%;
+    color: #63458A;
+    font-size: 1.3rem;
+}
+
+.profile {
+    width: 12rem;
+    border-radius: 10%;
+    margin-right: 3%;
+}
+
+.quote {
+    width: 70%;
+    margin: 6% auto;
+    border: 1px solid #674582;
+    color: #63458A;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.quote-description {
+    padding: 3%;
+    text-align: center;
+    line-height: 180%;
+}
+
+.story {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.story-title {
+    color: #674582;
+    font-family: 'Roboto Slab', sans-serif;
+    margin-bottom: 2%;
+    font-size: 2rem;
+}
+
+.story-img {
+    width: 100%;
+    margin: 3% 0;
+}
+
+.story-description {
+    line-height: 150%;
+    color: #63458A;
+    font-size: 1.3rem;
+    margin-top: 3%;
+}
+
+.author {
+    margin: 6% 0;
+    background-color: #E4B7E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author-link {
+    color: #63458A;
+}
+
+.author-link:hover {
+    text-decoration: underline;
+}
+
+.author-img {
+    width: 18rem;
+    margin-right: 6%;
+}
+
+.author-description {
+    color: #63458A;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 180%;
+}
+
+.personalities {
+    text-align: center;
+}
+
+.button {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #C083B9;
+}
+
+.footer-nav {
+    background-color: #323534;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+    padding: 2% 0;
+    font-weight: 300;
+}
+
+.footer-links {
+    list-style: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+}
+
+.footer-links a:hover {
+    color:#b993d6;
+}
+
+.footer-links li {
+    margin-left: 1rem;
+}
+
+.footer-credits {
+    text-align: center;
+    background-color: #292A2A;
+    color: #fff;
+    padding: 1% 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width:1000px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .logo-header {
+        width: 14rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 1.3rem;
+        margin-top: 10%;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-description {
+        margin-top: 6%;
+        width: 60%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .quote {
+        font-size: 1.2rem;
+    }
+
+    .story-title {
+        font-size: 1.3rem;
+        margin-top: 10%;
+    }
+
+    .story-description, .author-description {
+        font-size: 1rem;
+    }
+
+    .author-img {
+        width: 10rem;
+    }
+
+    .footer-links {
+        font-size: 0.8rem;
+    }
+
+    .footer-logo {
+        width: 10rem;
+    }
+
+    .footer-credits {
+        font-size: 0.7rem;
+    }
+
+    .button {
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .hide-desktop {
+        display: none;
+    }
+}

@@ -169,6 +169,7 @@ li {
     align-items: flex-end;
     text-align: center;
     color: white;
+    padding-bottom: 20px;
 /*    padding: 11rem 2rem 5rem 2rem;*/
 }
 
@@ -182,6 +183,8 @@ li {
   font-weight: 300;
   margin: 2rem 0 3rem 0;
   font-size: 1.5rem;
+  padding-left: 5px;
+padding-right: 5px;
 }
 
 /* --- SECTION MARAVILHOSAS --- */
@@ -198,6 +201,7 @@ li {
   justify-content: space-around;
   text-align: center;
   color: #63458a;
+  padding-right: 30px;
 }
 
 .maravilhosas__perfil {
@@ -208,10 +212,13 @@ li {
 .maravilhosas__perfil img {
   background-color: #63458a;
   border-radius: 10px;
+  width: 100%;
 }
 
 .maravilhosas__perfil a img {
   transition: all .5s;
+  width: 160px;
+  height: 160px;
 }
 
 
@@ -320,6 +327,10 @@ li {
     .navegacao__itens li {
         font-size: 1.2rem;
         margin: 0 .6rem;
+    }
+
+    .navegacao__redes-sociais{
+      display: flex;
     }
     
     .navegacao__menu-hamburguer {

@@ -1,0 +1,444 @@
+/* mobile first */
+/* iphone 5 */
+
+* {
+    border: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* barra de navegação */
+
+.navegacao {
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    background-color:#674582;
+}
+
+.img--logo {
+    margin-left: 0.5rem;
+    display: flex;
+}
+
+.menu--bar {
+    display: flex;
+    height: 1.8rem;
+    padding: 1rem;
+}
+
+.nav--lista {
+    display: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav--icons {
+    display: none;
+}
+
+/* header  */
+
+.cabecalho {
+    height: 25vh;
+    background: url(/home/img/bg-banner-claro.png);
+    background-size: cover;
+}
+
+.titulo--maravilhosa {
+    padding-top: 7.4rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.3rem;
+    align-items: flex-end;
+    text-align: center;
+}
+
+/* conteúdo */
+
+.artigo {
+    align-items: center;
+}
+
+.titulo {
+    color: #63458A;
+    padding: 1.2rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.foto--texto {
+    display: flex;
+    align-items: center;
+    padding-left: 1.4rem;
+}
+
+.perfil--foto {
+    align-items: center;
+    width: 120px;
+}
+
+.paragrafo {
+    max-width: 150px;
+    font-size: 0.7rem;
+    text-align: left;
+    padding: 0.6rem;
+    color: #63458A;
+}
+
+.outras--mara {
+    color: #63458A;
+    text-align: center;
+    margin: 3rem;
+}
+
+.quote {
+    border: #63458A solid 0.1px;
+    margin: 2rem;
+}
+
+.para--quote {
+    font-size: 0.7rem;
+    padding: 1rem;
+    color: #63458A;
+    font-weight: bold;
+    text-align: center;
+}
+
+.historia {
+    padding: 2.5rem;
+}
+
+.titulo--historia {
+    text-align: center;
+    color: #63458A;
+    font-size: 0.9rem;
+}
+
+.para--historia {
+    font-size: 0.8rem;
+    color: #63458A;
+}
+
+.midtext {
+    width: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sobre--autora {
+    background: #E4B7E5;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.foto--autora {
+    width: 80px;
+}
+
+.descricao--autora {
+    font-size: 0.5rem;
+    color: #63458A;
+    padding-left: 0.8rem;
+}
+
+/* botão */
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;    
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #C083B9;
+    align-self: center;
+    margin: 36rem;
+}
+
+.btn-roxo {
+    color:#ffffff;
+    padding: 0.6rem 1.5rem;
+}
+
+/* footer */
+
+.rodape__principal {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    background-color: #323534;
+}
+
+.rodape__navegacao {
+    font-size: 0.5rem;
+    color: #ffffff;
+}
+
+.rodape__redes-sociais {
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+
+.rodape__cc {
+    height: 1.5rem;  
+    background: #292A2A;
+}
+
+.rodape--text {
+    padding-top: 0.5rem;
+    font-size: 0.4rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* media queries */
+
+@media (min-width: 358px) {
+    .cabecalho {
+        height: 30vh;
+    }
+
+    .titulo--maravilhosa {
+        padding-top: 8.6rem;
+    }
+
+    .foto--texto {
+        margin-left: 2rem;
+    }
+
+    .midtext {
+        width: 280px;
+    }
+
+    .sobre--autora {
+        padding-left: 3.3rem;
+    }
+}
+
+@media (min-width: 375px) {
+    .midtext {
+        width: 300px;
+    }
+}
+
+@media (min-width: 411px) {
+    .foto--texto {
+        padding-left: 1.5rem;
+    }
+        
+    .paragrafo {
+        max-width: 180px;
+        font-size: 0.8rem;
+    }
+
+    .midtext {
+        width: 330px;
+    }
+
+    .sobre--autora {
+        padding-left: 5rem;
+    }
+}
+
+@media (min-width: 440px) {
+    .cabecalho {
+        height: 30vh;
+    }
+
+    .paragrafo {
+        max-width: 220px
+    }
+
+    .midtext {
+        width: 360px;
+    }
+}
+
+@media (min-width: 500px) {
+    .cabecalho {
+        height: 35vh;
+    }
+
+    .titulo--maravilhosa {
+        font-size: 2rem;
+    }
+
+    .titulo {
+        font-size: 1.3rem;
+    }
+
+    .para--quote {
+        font-size: 0.9rem;
+    }
+
+    .paragrafo {
+        max-width: 260px
+    }
+
+    .midtext {
+        width: 360px;
+    }
+
+    .sobre--autora {
+        padding-left: 7.8rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .titulo--maravilhosa {
+        padding-top: 19rem;
+        font-size: 3rem;
+    }
+
+    .titulo {
+        font-size: 1.6rem;
+    }
+
+    .paragrafo {
+        max-width: 300px;
+        font-size: 1.2rem;
+        padding-left: 1.5rem;
+    }
+
+    .foto--texto {
+        padding-left: 11rem;
+    }
+
+    .quote {
+        margin: 4rem;
+    }
+
+    .para--quote {
+        font-size: 1.2em;
+    }
+
+    .titulo--historia {
+        font-size: 1rem;
+    }
+
+    .para--historia {
+        font-size: 0.9rem;
+    }
+
+    .midtext {
+        width: 680px;
+    }
+
+    .sobre--autora {
+        padding-left: 10rem;
+        margin-top: 4rem;
+    }
+
+    .foto--autora {
+        width: 140px;
+    }
+
+    .descricao--autora {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .titulo--maravilhosa {
+        font-size: 4rem;
+        padding-top: 25rem;
+    }
+
+    .titulo {
+        font-size: 2.5rem;
+        padding: 2rem;
+    }
+
+    .foto--texto {
+        padding-top: 3rem;
+        padding-right: 7rem;
+    }
+    .paragrafo {
+        max-width: 500px;
+        font-size: 1.8rem;
+    }
+
+    .perfil--foto {
+        width: 250px
+    }
+}
+
+@media (min-width: 1320px) {
+    .cabecalho {
+        height: 75vh;
+    }
+
+    .menu--bar {
+        display: none;
+    }
+
+    .nav--icons {
+        display: flex;
+        padding: 1.6rem;
+        padding-right: 8rem;
+    }
+
+    .img--logo {
+        padding-left: 6rem;
+    }
+
+    .foto--texto {
+        padding-left: 17rem;
+    }
+
+    .paragrafo {
+        font-size: 1.2rem;
+    }
+
+    .quote {
+        max-width: 850px;
+        padding: 1rem;
+        margin-left: 15rem;
+    }
+
+    .historia{
+        max-width: 850px;
+        margin-left: 15rem;
+    }
+
+    .titulo--historia {
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    .para--historia {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .midtext {
+        width: 845px;
+    }
+
+    .sobre--autora {
+        padding-left: 20rem;
+    }
+
+    .foto--autora {
+        width: 200px;
+    }
+
+    .descricao--autora {
+        font-size: 1.2rem;
+    }
+
+    .rodape__navegacao {
+        display: flex;
+    }
+
+    .rodape--text {
+        font-size:0.8rem;
+    }
+}

@@ -1,0 +1,483 @@
+/* --- MOBILE FIRST - iPhone 7 - width < 768px --- */
+/* --- GERAL --- */
+/*
+unidades preferidas para esse CSS
+margin, padding: rem
+font-size: rem
+width: %
+max-width: % ou px
+*/
+
+/* Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; 
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+    width: 100%;
+  }
+  
+  /* define o tamanho da caixa */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+/* --- NAV --- */
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__itens {
+  position: absolute;
+  right: -700px;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 1s;
+}
+
+.navegacao__itens.ativo {
+  display: block;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 1s;
+}
+
+.navegacao__itens li > a {
+  transition: all .2s;
+}
+
+.navegacao__itens li > a:hover {
+  color: #C083B9;
+}
+
+.navegacao__menu-hamburguer img {
+  background-color: #C083B9;
+  border-radius: 5px;
+}
+
+.navegacao__nav {
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}
+
+.navegacao__nav li {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.navegacao__redes-sociais a {
+  margin: 0 1rem;
+}
+
+/* --- HEADER --- */
+.header {
+    min-height: 80vh;
+    height: 500px;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+                url(../img/su3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-position:center;
+    font-size: 1.8rem;
+}
+
+/* --- MAIN --- */
+
+.sobre__titulo {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.9rem;
+    line-height: 2.9rem;
+    text-align: center;
+    color: #63458A;
+    padding: 1rem;
+}
+
+.secao__sobre{
+  padding: 2rem;
+  text-align: center;
+}
+.container__sobre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobre__imagem{
+  padding: 1rem;
+  margin-right: 2rem;
+  width: 16rem;
+  height: 18rem;
+}
+
+.sobre__paragrafo{
+  text-align: left;
+  color: #7E459B;
+  max-width: 350px;
+  width: 100%;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+
+/* --- SECAO FRASE DA PERSONALIDADE--- */
+.secao__caixa__frase{  
+  border: 1px solid #63458A;
+  box-sizing: border-box;
+  max-width: 350px;
+}
+
+.frase__paragrafo{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #63458A;
+  padding: 0px 22px;
+}
+
+/* --- SECAO HISTORIA DA PERSONALIDADE--- */
+
+.historia{
+  padding: 0px 22px;
+}
+
+#historia__paragrafo {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: #63458A;
+  max-width: 350px;
+}
+
+.historia__div__imagem{
+  text-align: center;
+}
+
+.historia__imagem{
+  width: 350px;
+}
+
+/* --- SECAO AUTORA--- */
+.secao__principal__autora{
+  background: #E4B7E5;
+  display: flex;
+  align-items: center;
+}
+
+.imagem__autora{
+  width: 50%;
+  padding: 0px 25px;
+}
+
+.paragrafo__autora{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: left;
+  align-items: center;
+  color: #63458A;
+}
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  font-size: 1.8rem;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 250px;
+  text-align: center;
+  transition: all .5s;
+  margin: 0 auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-1rem);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_roxo:active {
+  transform: translateY(-.5rem);
+  box-shadow: 0 5px 5px rgba(0,0,0,.2);
+}
+
+.btn_center {
+  margin: 0 auto;
+}
+
+.secao__botao{
+  padding: 30px;
+}
+
+/* --- FOOTER --- */
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .rodape__principal > * {
+    margin: 1rem 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+  }
+  
+  .rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+  }
+  
+  .rodape__redes-sociais a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+  }
+  
+  .rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+
+
+  /*** MEDIA QUERIES ***/
+/* TABLET */
+@media (min-width: 768px) {
+  /* --- NAV --- */
+  .navegacao__itens {
+      position: static;
+      display: flex;
+      padding: 0;
+      width: auto;
+  }
+
+  .navegacao__nav {
+      margin-bottom: 0;
+  }
+  
+  .navegacao__itens ul {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .navegacao__itens li {
+      font-size: 1.2rem;
+      margin: 0 .6rem;
+  }
+  
+  .navegacao__menu-hamburguer {
+      display: none;
+  }
+
+  /* --- HEADER --- */
+  .header {
+      min-height: 75vh;
+      text-align: left;
+      padding: 5rem 10rem;
+  }
+
+  .principal__titulo {
+      font-size: 2.9rem;
+      text-align: center;
+  }
+  
+  .principal__sub {
+      font-size: 1.8rem;
+  }
+
+  .principal__btn {
+      margin: 0;
+  }
+
+
+  /* --- MAIN --- */
+
+.sobre__paragrafo {
+  max-width: 330px;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+  /* --- SECAO FRASE DA PERSONALIDADE--- */
+  .secao__caixa__frase{  
+    max-width: 510px;
+  }
+
+  /* --- SECAO HISTORIA DA PERSONALIDADE--- */
+
+  #historia__paragrafo{
+    max-width: 510px;
+  }
+
+  .historia__imagem {
+    width: 510px;
+  }
+
+  /* --- SECAO AUTORA--- */
+  .secao__principal__autora{
+    justify-content: center;
+  }
+
+  .imagem__autora{
+    width: 10%;
+  }
+
+  /* --- BOTAO --- */
+
+  .btn_roxo {
+    margin: 0 auto;
+  }
+
+  /* --- FOOTER --- */
+  .rodape {
+      padding-top: 0;
+  }
+
+  .rodape__principal {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+  }
+
+  .rodape__logo img {
+      max-width: 250px;
+  }
+
+  .rodape__navegacao > li {
+      font-size: 1.5rem;;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+.navegacao__box {
+    max-width: 80%;
+}
+.header {
+    min-height: 90vh;
+}
+.navegacao__itens li {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+.principal {
+    max-width: 650px;
+}
+
+.historia__imagem{
+  max-width: 510px;
+}
+}
+

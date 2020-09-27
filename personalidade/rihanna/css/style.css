@@ -1,0 +1,494 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.root {
+    font-size: 40%;
+}
+
+/* header */
+
+.chamada {
+    height: 28%;
+    background: url(../img/Rihanna-banner-editado1.png);
+    background-repeat: no-repeat;
+    background-size: 112%;
+    background-color: rgb(191, 134, 238);
+}
+
+.titulo1 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 88px;
+    color: #FFFFFF;
+    padding-top: 30%;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Main */
+main {
+    width: 100%; 
+}
+
+#container {
+    width: 80%;
+    padding: 0;
+    margin-left: 10%;
+    background-color: lawngreen;
+}
+
+.titulo2 {
+    width: 90%;
+    color: #63458A;
+    font-family: Roboto Slab;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 42px;
+    margin-left: 20px;
+}
+
+
+.parte-1 {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;    
+    background: #674582;
+    
+}
+
+.parte-1 img {
+    height: 199px;
+    width: 199px;
+    border-radius: 100%;
+
+}
+
+.parte-1>p {
+    width: 90%;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 20px;
+    text-align: center;
+    color: #63458A;
+    padding-bottom: 52px;
+    padding-top: 20px;
+}
+
+
+.citação {
+    height: 140px;
+    border: 1px solid #63458A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.citação>p {
+    width: 80%;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #63458A;
+
+}
+
+.part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo3 {
+    color: #63458A;
+    font-family: Roboto Slab;
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 52px;
+}
+
+.parte-2>p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 20px;
+    text-align: left;
+    color: #63458A;
+}
+
+.paragrafo1{
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+.paragrafo2{
+    padding-top: 10px;
+    padding-bottom: 52px;
+}
+
+.parte-2 img {
+    height: 96px;
+}
+
+/* sobre a autora */
+#referencia {
+    height: 100px;
+    background: #E4B7E5;
+
+    display: flex;
+    justify-content: center;
+}
+
+.parte-3 {
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-weight: 800;
+    line-height: 1rem;
+    font-size: 0.6rem;
+    color: #63458A;
+}
+
+.parte-3 ul {
+    padding-left: 15px;
+    list-style-type: none;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parte-3 img {
+    height: 100px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ver-todas {
+    width: 164px;
+    height: 42px;
+    background: #C083B9;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+.ver-todas a {
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+button:hover{
+    background: #c766bc;
+    transition-duration: 0.8s;    
+    box-shadow: #f1afe9 4px 4px 10px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 50px;
+    background: #323534;
+    height: 90px;
+}
+
+.rodape {
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 50px;
+
+    display: flex;
+    align-items: flex-end;
+    display: none;
+}
+
+.rodape ul {
+    list-style-type: none;  
+    text-align: center;
+}
+
+.rodape a{
+    font-family: Montserrat;
+    color: #F3F3F3;
+    outline: none;
+    font-weight: 300;
+    font-size: 0.6rem;
+    text-decoration: none;
+}
+
+.logo-link{
+    width: 80%;
+    margin: 0;
+    padding-left:55px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-link > img{ 
+        height: 30px;
+}
+
+.logo-link > a img{
+    height: 20px;
+}
+
+.logo-link a{
+    font-size: 0.6rem;
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #F3F3F3;
+    padding-left: 10px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.informativo{
+    background-color: #292A2A;
+    height: 38px;
+    font-family: Montserrat;
+    color: #F3F3F3;
+    font-weight: 300;
+    font-size: 0.6rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 375px){
+    .chamada {
+        height: 22%;
+        background-size: 112%;
+    }
+
+    
+.titulo1 {
+    padding-top: 28%;
+}
+
+.parte-2 img {
+    height: 101px;
+}
+
+}
+
+@media screen and (min-width: 400px) {
+
+    .parte-2 img {
+        height: 98px;
+    }  
+
+    .home2{
+        display: initial;
+    }
+    .rodape a{
+        font-size: 0.4rem;
+    }
+    
+    .rodape img{
+        height: 15px;
+    }
+
+    footer{
+        height: 80px;
+    }
+
+    .informativo{
+        height: 60px;
+        font-size: 0.4rem;
+    }
+    
+}
+
+@media screen and (min-width: 401px){
+
+    .parte-2 img{
+        height: 110px;
+    }
+
+    .chamada {
+        height: 27%;
+        background-size: 120%;
+    }
+
+    .informativo{
+        height: 60px;
+        font-size: 0.4rem;
+    }
+
+}
+
+@media screen and (min-width: 700px){
+
+    /* chamada */   
+.chamada {
+    height: 34%;
+    background-size: 105%;
+}
+
+    .titulo1 {    
+        padding-top: 32%;
+        font-size: 3rem;
+    }
+
+    /* main */
+
+    .titulo2 {
+        width: 80%;
+        font-size: 1.6rem;
+        text-align: center;
+        padding-top: 42px;
+        margin-left: 60px;
+    }
+
+    .parte-1>p {
+        font-size: 1rem;
+    }
+
+    .citação {
+        height: 160px;
+    }
+
+    .citação>p {
+
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.1rem;
+        text-align: center;
+        line-height: 2.2rem;
+        color: #63458A;
+    }
+
+    .titulo3 {
+        font-size: 1.6rem;
+    }
+
+    .parte-2>p {
+        font-size: 1rem;
+    }
+
+    .parte-2 img {
+        height: 206px;
+    }
+
+    /* sobre a autora */
+
+    #referencia {
+        height: 140px;
+        background: #E4B7E5;
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .parte-3 img {
+        height: 140px;
+    }
+
+    .parte-3 {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .ver-todas {
+        width: 220px;
+        height: 52px;    
+    }
+
+    .ver-todas a {
+        font-size: 1rem;
+    }
+
+    /* footer */
+    footer {
+        height: 14%;
+        margin-top: 50px;
+    }
+
+    .rodape{
+        width: 30%;
+        margin: 0;
+    }
+
+    .rodape img{
+        height: 30px;
+    }
+
+    .rodape, .logo-link{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .rodape a{
+        font-size: 0.6rem;
+        display: initial;
+    }
+
+    .logo-link{
+        width: 50%;
+        margin-left: 35%;
+        padding: 0;
+
+        display: flex;
+        justify-content: space-between;
+}
+
+
+    .informativo{
+        background-color: #292A2A;
+        height: 48px;
+        font-family: Montserrat;
+        color: #F3F3F3;
+        font-weight: 300;
+        font-size: 0.6rem;
+
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    
+}
+
