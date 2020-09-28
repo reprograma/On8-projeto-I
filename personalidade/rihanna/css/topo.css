@@ -1,49 +1,56 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} 
+}
 
-html, body{
+html,
+body {
     height: 100vh;
     width: 100vw;
 }
 
-.root{
-    font-size:46%
+.root {
+    font-size: 46%
 }
 
 
 /* nav */
 
-nav{
+nav {
     height: 133px;
     margin: 0;
     padding: 0;
     background: #674582;
 }
 
-.logo-1, .menu{
+.logo-1,
+.menu {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-.logo-1{
+.logo-1 {
     height: 40%;
     top: 20px;
     margin-left: 80px;
 }
 
-.menu{
+.menu {
     width: 48%;
-   display: flex;
-   flex-direction: row;
-   margin-left: 80px;
-   margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 50px;
 }
 
-.home, .reprograma{
+.menu a:hover {
+    color: #a072dd;
+}
+
+.home,
+.reprograma {
     font-family: Montserrat;
     color: #FFFFFF;
     font-size: 0.6rem;
@@ -52,59 +59,66 @@ nav{
 }
 
 
-.reprograma > p{ 
+.reprograma>p {
     margin-left: 24px;
-    white-space: nowrap;  
+    white-space: nowrap;
 }
 
 
-.icones{
+.icones {
     width: 40%;
     height: 20%;
     padding-top: 6%;
     padding-left: 94%;
-    
+
     position: absolute;
     display: flex;
     align-items: center;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
-.icones-topo img{
+.icones-topo img {
     width: 14.26px;
     height: 14px;
     margin: 2px;
     display: none;
+    transition: all 1s;
+    cursor: pointer;
 }
 
-@media screen and (min-width: 401px){
-
-    
-.logo-1{
-
-    margin-left: 100px;
+.icones-topo img:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 
-.menu{
-   margin-left: 100px;
-}
+@media screen and (min-width: 401px) {
+
+
+    .logo-1 {
+
+        margin-left: 100px;
+    }
+
+    .menu {
+        margin-left: 100px;
+    }
 
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
 
-    nav{
+    nav {
         display: flex;
         flex-direction: row;
     }
-    
-    .logo-1{
+
+    .logo-1 {
         height: 40%;
         margin: 3% 0 0 6%;
 
     }
 
-    .menu{
+    .menu {
         width: 20%;
         padding: 2% 0;
         margin-left: 6%;
@@ -114,15 +128,16 @@ nav{
         flex-direction: row;
     }
 
-    .reprograma, .home{
+    .reprograma,
+    .home {
         font-size: 0.8rem;
     }
 
-    .reprograma > p{ 
-        white-space: nowrap;  
+    .reprograma>p {
+        white-space: nowrap;
     }
 
-    .icones{
+    .icones {
         width: 30%;
         height: 20%;
         margin-left: 18%;
@@ -133,7 +148,7 @@ nav{
         flex-direction: row;
     }
 
-    .icones-topo img{
+    .icones-topo img {
         width: 24px;
         height: 24px;
         margin: 6px;
@@ -143,20 +158,20 @@ nav{
 
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
 
-    nav{
+    nav {
         display: flex;
         flex-direction: row;
     }
-    
-    .logo-1{
+
+    .logo-1 {
         height: 40%;
         margin: 3% 0 0 6%;
 
     }
 
-    .menu{
+    .menu {
         width: 20%;
         padding: 2% 0;
         margin-left: 6%;
@@ -166,15 +181,16 @@ nav{
         flex-direction: row;
     }
 
-    .reprograma, .home{
+    .reprograma,
+    .home {
         font-size: 0.8rem;
     }
 
-    .reprograma > p{ 
-        white-space: nowrap;  
+    .reprograma>p {
+        white-space: nowrap;
     }
 
-    .icones{
+    .icones {
         width: 30%;
         height: 20%;
         margin-left: 18%;
@@ -185,7 +201,7 @@ nav{
         flex-direction: row;
     }
 
-    .icones-topo img{
+    .icones-topo img {
         width: 24px;
         height: 24px;
         margin: 6px;
@@ -194,20 +210,21 @@ nav{
 
 
 }
-@media screen and (min-width: 700px){
 
-    nav{
+@media screen and (min-width: 700px) {
+
+    nav {
         display: flex;
         flex-direction: row;
     }
-    
-    .logo-1{
+
+    .logo-1 {
         height: 40%;
         margin: 3% 0 0 6%;
 
     }
 
-    .menu{
+    .menu {
         width: 20%;
         padding: 2% 0;
         margin-left: 6%;
@@ -217,15 +234,16 @@ nav{
         flex-direction: row;
     }
 
-    .reprograma, .home{
+    .reprograma,
+    .home {
         font-size: 0.8rem;
     }
 
-    .reprograma > p{ 
-        white-space: nowrap;  
+    .reprograma>p {
+        white-space: nowrap;
     }
 
-    .icones{
+    .icones {
         width: 30%;
         height: 20%;
         margin-left: 18%;
@@ -236,7 +254,7 @@ nav{
         flex-direction: row;
     }
 
-    .icones-topo img{
+    .icones-topo img {
         width: 24px;
         height: 24px;
         margin: 6px;
@@ -246,20 +264,20 @@ nav{
 
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 
-    nav{
+    nav {
         display: flex;
         flex-direction: row;
     }
-    
-    .logo-1{
+
+    .logo-1 {
         height: 40%;
         margin: 3% 0 0 9%;
 
     }
 
-    .menu{
+    .menu {
         width: 20%;
         padding: 2% 0;
         margin-left: 6%;
@@ -269,31 +287,67 @@ nav{
         flex-direction: row;
     }
 
-    .reprograma, .home{
-        font-size: 0.8rem;
+    .reprograma,
+    .home {
+        font-size: 1rem;
     }
 
-    .reprograma > p{ 
-        white-space: nowrap;  
+    .reprograma>p {
+        white-space: nowrap;
     }
 
-    .icones{
+    .icones {
         margin-left: 18%;
-        padding: 4% 0;
+        padding: 8% 0;
 
         display: flex;
         flex-direction: row;
     }
 
-    .icones-topo img{
-        width: 44px;
-        height: 44px;
+    .icones-topo img {
+        width: 34px;
+        height: 34px;
         margin: 6px;
         display: unset;
     }
-
-
 }
 
+@media screen and (min-width: 1300px) {
 
+    .logo-1 {
+        height: 50%;
+        margin: 0;
+        padding-left: 8rem;
+        margin-top: 1rem;
+    }
 
+    .menu {
+        padding: 1% 0;
+        padding-left: 16%;
+    }
+
+    .home,
+    .reprograma {
+        font-size: 0.8rem;
+    }
+
+    .icones {
+        width: 10%;
+        height: 20%;
+        padding-top: 5.5%;
+        padding-left: 72%;
+        margin: 0;
+
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .icones-topo img {
+        width: 34px;
+        height: 34px;
+        margin-left: 8px;
+    }
+
+}

@@ -24,7 +24,6 @@ body {
     background: url(../img/Rihanna-banner-editado1.png);
     background-repeat: no-repeat;
     background-size: 112%;
-    background-color: rgb(191, 134, 238);
 }
 
 .titulo1 {
@@ -49,7 +48,6 @@ main {
     width: 80%;
     padding: 0;
     margin-left: 10%;
-    background-color: lawngreen;
 }
 
 .titulo2 {
@@ -173,6 +171,14 @@ main {
     color: #63458A;
 }
 
+.parte-3 a{
+    text-decoration: none;
+}
+
+.parte-3 a:hover{
+    color: #a072dd;
+}
+
 .parte-3 ul {
     padding-left: 15px;
     list-style-type: none;
@@ -250,6 +256,11 @@ footer {
     text-decoration: none;
 }
 
+.rodape a:hover{
+    color: #919996;
+}
+
+
 .logo-link{
     width: 80%;
     margin: 0;
@@ -280,6 +291,10 @@ footer {
     align-items: flex-end;
 }
 
+.logo-link a:hover{
+    color: #919996;
+}
+
 .informativo{
     background-color: #292A2A;
     height: 38px;
@@ -295,8 +310,8 @@ footer {
 
 @media screen and (min-width: 375px){
     .chamada {
-        height: 22%;
-        background-size: 112%;
+        height: 30%;
+        background-size: 120%;
     }
 
     
@@ -444,36 +459,29 @@ footer {
         margin-top: 50px;
     }
 
-    .rodape{
+    .rodape {
         width: 30%;
-        margin: 0;
-    }
+        height: 30%;
+        padding-left: 12%;
+        padding-top: 46px;  
 
-    .rodape img{
-        height: 30px;
-    }
-
-    .rodape, .logo-link{
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
     }
 
     .rodape a{
+ 
         font-size: 0.6rem;
         display: initial;
     }
 
     .logo-link{
         width: 50%;
-        margin-left: 35%;
+        margin: 0;
+        margin-left: 38%;
         padding: 0;
-
-        display: flex;
-        justify-content: space-between;
-}
-
-
+    }
+  
     .informativo{
         background-color: #292A2A;
         height: 48px;
@@ -481,6 +489,7 @@ footer {
         color: #F3F3F3;
         font-weight: 300;
         font-size: 0.6rem;
+        margin-top: 40px;
 
         display: flex;
         justify-content: center;
@@ -489,6 +498,237 @@ footer {
 }
 
 @media screen and (min-width: 1024px){
+   
+    /* header */
+    .chamada {
+        height: 48%;
+        background: url(../img/Rihanna-banner-editado1.png);
+        background-size: 115%;
+    }
+
+    /* Main */
     
+    .titulo1 {
+        font-size: 3.5rem;
+        line-height: 88px;
+        padding-top: 36%;
+    }
+
+    .titulo2 {
+        font-size: 2.4rem;
+    }
+
+    .parte-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .foto-perfil{
+        width: 230px;
+        height: 230px;        
+    }
+
+    .parte-1 img {
+        height: 229px;
+        width: 229px;
+        border-radius: 100%; 
+    } 
+
+    .parte-1>p {
+        width: 80%;
+        font-size: 1rem;
+        line-height: 30px;
+        text-align: left;
+        padding-left: 2rem;
+    }
+
+    .citação {
+        height: 250px;
+        margin-top: 82px;
+        margin-bottom: 62px;
+    }
+    
+    .citação>p {
+        width: 80%;
+        font-size: 1.6rem;
+        line-height: 40px;  
+    }
+
+    .parte-2>p {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    .parte-2 img {
+        height: 17.2rem;
+    
+    }   
+    
+    #referencia {
+        height: 200px;
+    }
+
+    .parte-3 {
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .parte-3 img {
+        height: 12.5rem;
+    }
+    
+    .ver-todas {
+        width: 20rem;
+        height: 4rem;
+    
+    }
+
+    .ver-todas a {
+        font-size: 1.2rem;
+    }    
+
+}
+
+@media screen and (min-width: 1300px){
+
+     /* header */
+     .chamada {
+        height: 94%;
+        background: url(../img/Rihanna-banner-editado1.png);
+        background-size: 100%;
+    }
+
+    /* Main */
+    
+    .titulo1 {
+        font-size: 5rem;
+        line-height: 88px;
+        padding-top: 26%;
+    }
+
+    .titulo2 {
+        width: 50%;
+        font-size: 2rem;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+        margin-left: 16rem;
+
+    }
+
+    .parte-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .foto-perfil{
+        width: 22rem;
+        height: 22rem;        
+    }
+
+    .parte-1 img {
+        height: 20rem;
+        width: 20rem;
+        border-radius: 100%; 
+    } 
+
+    .parte-1>p {
+        width: 80%;
+        font-size: 1.4rem;
+        line-height: 30px;
+        text-align: left;
+        padding-left: 2rem;
+    }
+
+    .citação {
+        height: 250px;
+        margin-top: 82px;
+        margin-bottom: 62px;
+ 
+    }
+    
+    .citação>p {
+        width: 70%;
+        font-size: 1.6rem;
+        line-height: 40px;  
+    }
+
+    .parte-2>p {
+        font-size: 1.4rem;
+        line-height: 30px;
+    }
+
+    .parte-2 img {
+        height: 22.9rem;
+    }   
+    
+    #referencia {
+        height: 250px;
+        margin-top: 32px;
+        margin-bottom: 50px;
+    }
+
+    .parte-3 {
+        line-height: 2rem;
+        font-size: 1.2rem;
+
+    }
+
+    .parte-3 img {
+        height: 15.7rem;
+    }
+    
+    .ver-todas {
+        width: 20rem;
+        height: 4rem;
+        margin-bottom: 32px;
+    
+    }
+
+    .ver-todas a {
+        font-size: 1.2rem;
+    }
+    
+    /* Footer */
+    footer {
+        height: 25%;
+    }
+
+    .rodape {
+        padding-left: 12%;
+        padding-top: 26px;  
+    }
+
+    .rodape a{
+        line-height: 40px;
+        font-size: 1rem;
+        display: initial;
+    }
+
+    .logo-link > img{ 
+        height: 50px;
+    }
+
+.logo-link > a img{
+    height: 40px;
+    }
+
+.logo-link a{
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #F3F3F3;
+    padding-left: 10px;
+
+    display: flex;
+    align-items: flex-end;
+    }
+
+
+    .informativo{
+        height: 60px;
+        font-size: 0.8rem;
+    }
 }
 
