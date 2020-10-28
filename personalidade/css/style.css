@@ -1,0 +1,490 @@
+/* mobile first */
+@media (min-width: 420px){
+  * {
+    box-sizing: border-box;
+    margin:0;
+}
+
+nav {
+    /* display: block; */
+}
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+html {
+    font-size: 10px;
+}
+
+ul, li, a{
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-decoration-style: none;
+  color:white;
+}
+
+/* NAVEGAÇÃO */
+
+.navegacao__mobile{
+  background-color: #674582;
+  /* position:fixed; */
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__responsivo{
+  display:flex;
+  /* margin:1rem; */
+}
+
+.menu__mobile{
+  width:2rem;
+  height:2rem;
+  background-color: #C083B9;
+  margin:0.2rem;
+}
+.menu__responsivo .navegacao__itens{
+  display: none;
+}
+.navegacao__itens{
+  color:white;
+  /* display: none; */
+}
+
+.lista-redes{
+  /* color:white; */
+  padding: 1rem;
+}
+.navegacao__logos{
+  display:none;
+}
+
+/* HEADER */
+
+  .cabecalho{
+    background: url(../img/viola-davis-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    width: 100%;
+    height: 20rem;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+.conteudo-principal{
+  display: inline-block;
+
+}
+
+.artigo{
+  display:flex;
+
+}
+
+.artigo__container{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  padding:2rem;
+
+}
+
+.subtitulo{
+  margin:1rem;
+  text-align: center;
+  color:#674582;
+}
+
+.artigo__box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: violet;
+  width: 16rem;
+  height: 16rem;
+  margin:1rem;
+}
+.artigo__imagem{
+  width: 100%;
+  max-width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.artigo__paragrafo{
+
+}
+
+.citacao{
+  border:grey 0.1rem solid;
+  border-radius: 0.5rem;
+  margin:1.8rem;
+  padding: 1rem;
+}
+
+.citacao__paragrafo{
+  text-align: center;
+}
+.historia{
+display:flex;
+}
+
+.historia__container{
+  display:flex;
+  flex-direction: column;
+  margin:2rem 3rem;
+  padding: 1rem;
+}
+
+.historia__box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia__imagem{
+  width:100%;
+  max-width: 35rem;
+  margin:1rem;
+}
+
+.historia__paragrafo{
+  /* text-align: center; */
+  margin:1rem;
+}
+
+.informacoes{
+  background:violet;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.informacoes__container{
+  display:flex;
+  justify-content: space-around;
+
+}
+
+.informacoes__imagem{
+  width:100%;
+  max-width: 13rem;
+  height: 100%;
+  max-height: 15rem;
+}
+
+.informacoes__github{
+  color:black;
+  list-style: none;
+}
+
+.sessao__botao{
+  display: flex;
+  justify-content: center;
+  margin:2.5rem;
+  
+}
+
+.btn{
+  width: 25rem;
+  background:violet;
+  border:violet 1rem solid;
+  border-radius:1rem;
+  font-weight: bold;
+  color:white;
+}
+
+/* footer */
+
+.rodape{
+  display:flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-color: #323534;
+  height: 20rem;
+  color:white;
+  align-items: center;
+}
+
+.rodape__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;   
+}
+
+
+.rodape__itens{
+  margin: 1rem 0;
+}
+
+.rodape__logo{
+  max-width: 20rem;  
+}
+
+
+.rodape__frase{
+  display: flex;
+  background: #292A2A;
+  width:100%;
+}
+
+.rodape__paragrafo{
+  
+}
+
+
+}
+
+
+
+
+
+/* MEDIA QUERIES PARA AJUSTAR */
+
+/* I-pad */
+@media screen and (min-width: 768px){
+ .nav{
+   background-color:aqua;
+ }
+
+
+@media screen and (min-width:1280px){
+  * {
+    box-sizing: border-box;
+}
+
+nav {
+    display: block;
+}
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+html {
+    font-size: 10px;
+}
+
+ul, li, a{
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-decoration-style: none;
+  color:white;
+}
+
+/* NAVEGAÇÃO */
+
+.navegacao__mobile{
+  background-color: #674582;
+  position:fixed;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu__responsivo{
+  display:flex;
+  margin:1rem;
+}
+
+#menu__responsivo .navegacao__itens{
+  /* display: none; */
+}
+.navegacao__itens{
+  color:white;
+  display: none;
+}
+
+.lista-redes{
+  /* color:white; */
+  padding: 1rem;
+}
+
+/* HEADER */
+
+
+  .cabecalho{
+    background: url(../img/viola-davis-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 27rem;
+}
+
+.navegacao__logos{
+  display:none;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.conteudo-principal{
+  display: inline-block;
+
+}
+
+.artigo{
+  display:flex;
+  /* flex-direction: column; */
+  
+
+}
+
+.artigo__container{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:1rem;
+  padding:2rem;
+
+}
+
+.subtitulo{
+  text-align: center;
+  color:#674582;
+}
+
+.artigo__box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: violet;
+  width: 16rem;
+  height: 16rem;
+}
+.artigo__imagem{
+  width: 100%;
+  max-width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+
+.citacao{
+  border:grey 0.1rem solid;
+  border-radius: 0.5rem;
+  margin:1.8rem;
+  padding: 1rem;
+}
+
+.citacao__paragrafo{
+  text-align: center;
+}
+.historia{
+display:flex;
+}
+
+.historia__container{
+  display:flex;
+  flex-direction: column;
+  margin:2rem 3rem;
+  padding: 1rem;
+}
+
+.historia__box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia__imagem{
+  width:100%;
+  max-width: 35rem;
+}
+
+.historia__paragrafo{
+  /* text-align: center;*/
+}
+
+.informacoes{
+  background:violet;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.informacoes__container{
+  display:flex;
+  justify-content: space-around;
+
+}
+
+.informacoes__imagem{
+  width:100%;
+  max-width: 13rem;
+  height: 100%;
+  max-height: 15rem;
+}
+
+.informacoes__github{
+  color:black;
+  list-style: none;
+}
+
+.sessao__botao{
+  display: flex;
+  justify-content: center;
+  margin:2.5rem;
+  
+}
+
+.btn{
+  width: 25rem;
+  background:violet;
+  border:violet 1rem solid;
+  border-radius:1rem;
+  font-weight: bold;
+  color:white;
+}
+
+/* footer */
+
+.rodape{
+  display:flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-color: #323534;
+  height: 20rem;
+  color:white;
+  align-items: center;
+}
+
+.rodape__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;   
+}
+
+
+.rodape__itens{
+  margin: 1rem 0;
+}
+
+.rodape__logo{
+  max-width: 20rem;  
+}
+
+
+.rodape__frase{
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+
+}
+}

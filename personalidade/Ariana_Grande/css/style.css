@@ -1,0 +1,265 @@
+
+html{
+    font-size: 10px;
+}
+.body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+/* sessão nav */
+.nav_desktop {
+    background-color: #674582;
+    display: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    padding: 1.5rem;
+    position: fixed;
+    color: white;
+    font-size: 1.5rem;
+}
+.links_nav{
+    display: flex;
+}
+.links{
+    padding: 2rem;
+}
+.img_nav{
+    padding: 1rem;
+}
+.nav_mobile {
+    background-color: rgb(103, 69, 130);
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+    position: fixed;
+}
+
+/* fim nav */
+.header {
+    background: url(/personalidade/Ariana_Grande/img/banner.png);
+    width: 100%;
+    height: 508px;
+    min-height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    top:128px;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+}
+.titulo_header {
+    color: white;
+    font-size: 4rem;
+    font-family: Montserrat;
+    font-style: normal;
+    margin: auto;
+    margin-bottom: 0;
+}
+.titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #63458A;
+    margin: 5%;
+}
+.N{
+    text-align: left;
+    margin-left: 5%;
+}
+.imagem{
+    display: flex;
+    background-color: #63458a;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4%;
+}
+.imagem_artigo{
+    display: inline-block;
+    width: 100%;
+    border-radius: 100%;
+    padding: 4%;
+}
+.article{
+    align-items: center;
+}
+
+.artigo{
+    text-align: justify;
+    font-size: 1.87rem;
+    line-height: 2.5rem;
+    color: #63458A;
+    margin: 8%;
+}
+
+
+.citacao{
+    border: 1px solid  #63458A;
+    margin: auto;
+    display: block;
+    max-width: 60%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.citacao_container{
+    font-size: 2.25rem;
+    color:  #63458A;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto{
+    color: #63458A;
+    font-size: 1.8rem;
+    text-align: justify;
+    margin: 2%;
+    padding: 3%
+}
+
+.imagem_div{
+    height: 50%;
+    width: 90%;
+    margin-left: 5%;
+}
+.autora{
+    display: flex;
+    background-color: #E487E5;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.img_autora{
+    height: 18.3rem;
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 20%;
+}
+.lista{
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #63458A;
+    font-weight: bold;
+}
+.botao{
+    background-color: #C083B9;
+    font-size: 2.25rem;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 8vh;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+/* footer */
+.footer {
+    background-color: #323534;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .footer_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem ;
+  }
+  
+  
+  .redes_social_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .div_footer {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 425px) {
+       .img_autora{
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+       }
+       .lista{
+           display: block;
+           text-align: center;
+       }
+       .autora{
+           display:block;
+       }
+   }
+
+  @media screen and (min-width: 768px) {
+      .artigo {
+        width: 50%;
+        display: inline-block;
+      }
+      .imagem {
+        width: 20%;
+        margin-left: 10%;
+        display: inline-block;
+      }
+      .article{
+          margin: 2%;
+        display: flex;
+      }
+  }
+  @media screen and (min-width: 1024px){
+      .nav_mobile{
+          display: none;
+      }
+      .nav_desktop{
+          display: flex;
+      }
+      .footer_principal{
+          flex-direction: initial;
+      }
+      .logo_footer{
+          padding: 6rem;
+      }
+      .corpo_conteudo{
+          margin-left: 10%;
+          margin-right: 10%;
+      }
+
+  }

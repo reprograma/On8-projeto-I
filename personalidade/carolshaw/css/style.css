@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    font-size: 1.2rem;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+
+}
+
+a,
+li {
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+}
+
+/*NAVEGACAO*/
+
+.navbar {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.navbar__itens {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+
+
+}
+
+.navbar__navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 980px;
+}
+
+.img-logo {
+    width: 100%;
+}
+
+.navbar__home {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar__itens {
+    position: absolute;
+    right: -700px;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 1s;
+
+}
+
+.conteiner__principal {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.header {
+    min-height: 80vh;
+    height: 500px;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+            rgba(255, 0, 255, 0.2)),
+        url(/personalidade/carolshaw/img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+}
+
+.conteiner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 980px;
+}
+
+/*MAIN*/
+
+
+.titulo {
+    color: #63458A;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.main__principal {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: left;
+    font-size: 20px;
+    align-items: center;
+    margin: 0 auto 70px;
+    width: 100%;
+    max-width: 980px;
+
+}
+
+.img-artigo {
+    max-width: 100%;
+}
+
+.paragrafo-artigo {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 50px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    color: #63458A;
+    -webkit-text-stroke-color: #000;
+}
+
+/*SECTION DA CITAÇÃO*/
+.frase__principal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    max-width: 980px;
+    color: #63458A;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.frase {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: left;
+    font-size: 20px;
+    align-items: center;
+    margin: 0 200px;
+    width: 100%;
+    max-width: 980px;
+    border: 1px solid #63458A;
+}
+
+/*SECTION HISTORIA*/
+.titulo-historia{
+    color: #63458A;
+    padding-top: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: left;
+    font-size: 20px;
+    align-items: center;
+    margin: 0 200px;
+    width: 100%;
+    max-width: 980px;
+}
+
+.historia__texto{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    color: #63458A;
+    
+}
+
+
+
+/*SECTION IMAGEM COM TEXTO*/
+.imagem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imagem-texto{
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.textofinal{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: left;
+    font-size: 20px;
+    align-items: center;
+    margin: 0 200px;
+    width: 100%;
+    max-width: 980px;
+}
+.textofinal__ultimo{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    color: #63458A;
+}
+/*SECTION DA AUTORA*/
+.autora__conteiner{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    text-align: left;
+    font-size: 20px;
+    align-items: center;
+    margin: 0 auto 70px;
+    width: 100%;
+    max-width: 980px;
+}
+
+.autora__foto{
+    width: 100%;
+    max-width: 980px;
+
+}
+
+.autora__texto{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    color: #63458A;
+    -webkit-text-stroke-color: #000;
+}
+.autora{
+    background: #E4B7E5;
+    background-image: initial;
+    padding: 0px;;
+
+
+}
+
+/*FOOTER */
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .rodape__principal > * {
+    margin: 1rem 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+  }
+  
+  .rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+  }
+  
+  .rodape__redes-sociais a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+  }
+  
+  .rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+/*tablet*/
+
+@media (min-width: 768px) {
+
+    /* --- NAV --- */
+    .navbar__itens {
+        position: static;
+        display: flex;
+        padding: 0;
+        width: auto;
+    }
+
+
+    .navbar__itens ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar__itens li {
+        font-size: 1.2rem;
+        margin: 0 .6rem;
+    }
+
+    .rodape {
+        padding-top: 0;
+    }
+
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape__logo img {
+        max-width: 250px;
+    }
+
+    .rodape__navegacao > li {
+        font-size: 1.5rem;;
+    }
+}
+
+@media (min-width: 1024px) {
+    .conteiner {
+        max-width: 980px;
+
+
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+    .navbar__navegacao {
+        width: 100%;
+        max-width: 980px;
+    }
+
+    .header {
+        min-height: 90vh;
+    }
+
+    .navbar__itens li {
+        font-size: 1.5rem;
+        margin: 0 1rem;
+        width: 100%;
+        display: flex;
+    }
+
+    .conteiner {
+        max-width: 980px;
+
+    }
+}

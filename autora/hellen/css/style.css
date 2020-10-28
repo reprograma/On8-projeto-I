@@ -1,0 +1,196 @@
+/*
+Reset Stylesheet
+2008-02-12
+Author: Eric Meyer
+*/
+ 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: inherit;
+    margin: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+* {
+    box-sizing: border-box;
+}
+.navegacao {
+    background-color: #674582;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    color: white;
+    width: 100%;
+}
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+.navegacao__logo {
+    max-width: 200px;
+}
+.img-responsive{
+    width: 100%;
+}
+.navegacao__itens{
+    display: flex;
+    flex-direction: row;
+}
+.navegacao__nav{
+    display: flex;
+}
+.navegacao__menu-hamburguer{
+    display: none;
+}
+li{
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.header {
+    min-height: 10vh;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(/autora/hellen/img/mulher\ code.jpeg);
+    background-size: cover;
+    background-position:center;
+    background-position-x:center;
+    background-position-y:center;
+    position:relative;
+    display:flex;
+    align-items:flex-end;
+    text-align:center;
+    color:white;
+}
+.container {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 100%;
+    max-width: 960px;
+}
+.principal__titulo {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.hellen {
+    align-items: center;
+}
+.hellen__title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.hellen__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: blue;
+}
+.hellen__img {
+    width: 170px;
+    height: 220px;
+    border-radius: 10px;
+}
+.hellen__txt {
+    width: 550px;
+    padding: padding-top: 7px;
+    padding-right: 27px;
+    padding-bottom: 7px;
+    padding-left: 27px;
+    font-size: 1rem;  
+    color: blue;
+
+}
+.historia {
+    text-align: left;
+    font-size: 1rem;
+    color: blue;
+
+}
+.historia_text {
+    font-size: 1.5rem;
+    margin: 25px;
+}
+.historia__img {
+    position: center;
+    max-width: 100%;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    color: white;
+    display: block;
+}
+
+@media screen and (min-width: 885px)
+.hellen {
+    padding-top: 20px;
+    padding-right: 120px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+}
